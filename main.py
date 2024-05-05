@@ -6,6 +6,8 @@ from io import BytesIO
 from PIL import Image
 import numpy as np
 import requests
+from plant_medicinal_data import Plant_Details, class_list
+
 
 app = FastAPI()
 
@@ -22,7 +24,7 @@ app.add_middleware(
 model = tf.keras.models.load_model("models/model-3.keras")
 
 # Define class labels (replace this with your actual class labels)
-class_list = ["class_1", "class_2", "class_3", ...]
+
 
 # Helper function to get plant name
 def get_plant_name(plant_name):
