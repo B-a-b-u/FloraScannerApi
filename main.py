@@ -30,6 +30,10 @@ model = tf.keras.models.load_model("models/model-3.keras")
 def get_plant_name(plant_name):
     return Plant_Details.get(plant_name)[0]
 
+@app.get("/")
+async def home():
+    return {"message": "Welcome to the Flora Scanner API!"}
+
 # Endpoint to predict image
 @app.post("/predict-image")
 async def predict_image(file: UploadFile = File(...)):
