@@ -13,7 +13,7 @@ app = FastAPI()
 
 @app.get("/")
 async def home():
-    return "Hello Everyone"
+    return {"message" : "Hello World"}
 
 
 def get_plant_name(plant_name):
