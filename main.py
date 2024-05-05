@@ -1,4 +1,4 @@
-from fastapi import FastAPI, File, UploadFile
+from fastapi import FastAPI, Body, HTTPException
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 import tensorflow as tf
@@ -7,6 +7,7 @@ from PIL import Image
 import numpy as np
 import requests
 from plant_medicinal_data import Plant_Details, class_list
+import base64
 
 
 app = FastAPI()
@@ -34,12 +35,12 @@ def get_plant_name(plant_name):
 async def home():
     return {"message": "Welcome to the Flora Scanner API!"}
 
-# Endpoint to predict image
-@app.post("/predict-image")
-async def predict_image(file: UploadFile = File(...)):
+@app.post("/predict")
+async def predict_image(image_data: dict = Body(...)):
     try:
-        contents = await file.read()
-        image = np.array(Image.open(BytesIO(contents)))
+        # Decode base64 image data
+        image_bytes = base64.b64decode(image_data["image"])
+        image = np.array(Image.open(BytesIO(image_bytes)))
         prediction = model.predict(np.expand_dims(image,0))
         predicted_class_index = np.argmax(prediction)
         confidence = round(100 * np.max(prediction[0]), 2)
