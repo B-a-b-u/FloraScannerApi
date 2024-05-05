@@ -14,7 +14,7 @@ app = FastAPI()
 # Allow all origins (replace "*" with specific origins if needed)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Replace "*" with your React Native app's origin
+    allow_origins=["http://localhost:8081"],  # Replace "*" with your React Native app's origin
     allow_credentials=True,
     allow_methods=["GET", "POST", "PUT", "DELETE"],
     allow_headers=["*"],
