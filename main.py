@@ -6,6 +6,20 @@ from io import BytesIO
 from PIL import Image
 import numpy as np
 import uvicorn
+from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+
+app = FastAPI()
+
+# Allow all origins (replace "*" with specific origins if needed)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Replace "*" with your React Native app's origin
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "PUT", "DELETE"],
+    allow_headers=["*"],
+)
+
 
 
 model = tf.keras.models.load_model("models/model-3.keras")
