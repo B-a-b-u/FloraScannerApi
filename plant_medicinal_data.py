@@ -470,407 +470,506 @@ Plant_Details = plant_data = {
 
 
 Plant_Details = {
-    'Aloevera': [
-        {
-            'scientific_name': 'Aloe vera',
-            'scientific_medicinal_properties': 'Aloe vera is a succulent plant species of the genus Aloe. It is cultivated for agricultural and medicinal uses.',
-            'common_location': 'Aloe vera is native to the Arabian Peninsula, but it is cultivated worldwide in tropical and subtropical regions.',
-            'popular_usecase': 'Aloe vera gel is widely used in cosmetics, skincare products, and herbal remedies. It is known for its moisturizing, soothing, and healing properties. Aloe vera gel is used to treat sunburn, skin irritation, acne, and wounds. It is also consumed internally as a dietary supplement for its potential health benefits, including digestive support, immune enhancement, and anti-inflammatory effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using aloe vera, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Aloe vera is valued for its soothing gel and therapeutic properties. It is used to promote skin health, relieve inflammation, and support overall well-being.'
-        }
+    'Aloevera': {
+        'scientificName': 'Aloe vera',
+        'medicinalProperty': 'Aloe vera is known for its medicinal properties. It contains various bioactive compounds, such as vitamins, minerals, enzymes, and amino acids, that contribute to its therapeutic effects. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Soothing burns and promoting wound healing: Aloe vera gel has cooling and anti-inflammatory properties, which can help soothe sunburns, minor burns, and cuts. It also supports the skin\'s natural healing process.',
+            'Moisturizing and hydrating skin: Aloe vera gel is a popular moisturizer due to its ability to hydrate and soften the skin. It is often used to treat dry or irritated skin conditions.',
+            'Reducing inflammation: Aloe vera contains compounds like acemannan and salicylic acid, which have anti-inflammatory properties. It may help reduce inflammation associated with conditions like acne, eczema, and psoriasis.',
+            'Supporting digestive health: Aloe vera juice has been traditionally used to support digestive health. It may help alleviate symptoms of gastrointestinal disorders, such as acid reflux, indigestion, and irritable bowel syndrome (IBS). However, it\'s essential to use it cautiously and consult a healthcare professional, as excessive consumption may cause adverse effects.'
+        ],
+        'commonGrowthLocation': 'Aloe vera is native to the Arabian Peninsula, but it is cultivated worldwide, especially in regions with warm climates.',
+        'disclaimer': 'Consult a qualified healthcare professional before using aloe vera, especially if you have any allergies or medical conditions.'
+    },
+    'Amla': {
+        'scientificName': 'Phyllanthus emblica',
+        'medicinalProperty': 'Amla is valued for its high vitamin C content and antioxidant properties, which contribute to its various medicinal benefits. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Boosting immune function: Amla is one of the richest natural sources of vitamin C, which plays a crucial role in supporting immune function. Regular consumption of amla may help strengthen the immune system and reduce the risk of infections, colds, and flu.',
+            'Supporting heart health: Amla contains potent antioxidants, such as vitamin C and flavonoids, which may help protect the heart by reducing oxidative stress and inflammation. It may also help lower cholesterol levels and improve blood circulation, thereby reducing the risk of heart disease and stroke.',
+            'Promoting hair and skin health: Amla is often used in traditional Ayurvedic medicine for promoting hair growth and maintaining healthy skin. It is rich in nutrients like vitamin C, which nourish the scalp and skin, improve hair texture, and prevent premature aging.',
+            'Enhancing digestion: Amla is known for its digestive properties and is used to treat various digestive disorders, including indigestion, acidity, and constipation. It helps stimulate the digestive fire (agni), improve nutrient absorption, and regulate bowel movements.'
+        ],
+        'commonGrowthLocation': 'Amla trees are native to India and are also found in other parts of Asia, including Sri Lanka, Bangladesh, and Nepal.',
+        'disclaimer': 'Consult a qualified healthcare professional before using amla, especially if you have any allergies or medical conditions.'
+    },
+    'Amruta_Balli': {
+        'scientificName': 'Tinospora cordifolia',
+        'medicinalProperty': 'Amruta Balli, also known as Tinospora cordifolia or Giloy, is a medicinal plant widely used in Ayurveda. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Boosting immune function: Amruta Balli is known for its immunomodulatory properties, which help enhance the body\'s natural defense mechanisms. It stimulates the production of white blood cells and strengthens the immune system, thereby reducing the risk of infections and diseases.',
+            'Anti-inflammatory and antioxidant effects: Amruta Balli contains bioactive compounds like alkaloids, glycosides, and flavonoids, which possess potent anti-inflammatory and antioxidant properties. These compounds help reduce inflammation, neutralize free radicals, and protect against oxidative stress, thereby promoting overall health and well-being.',
+            'Supporting liver health: Amruta Balli is beneficial for liver health and is used to treat various liver disorders, including hepatitis, jaundice, and fatty liver disease. It helps detoxify the liver, improve liver function, and protect against liver damage caused by toxins and free radicals.',
+            'Managing diabetes: Amruta Balli may help regulate blood sugar levels and improve insulin sensitivity, making it beneficial for individuals with diabetes. It helps control blood glucose levels, prevent complications associated with diabetes, and enhance overall metabolic health.'
+        ],
+        'commonGrowthLocation': 'Amruta Balli is native to tropical regions of India and is also found in other parts of Southeast Asia.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Amruta Balli, especially if you have any allergies or medical conditions.'
+    },
+    'Arali': {
+        'scientificName': 'Ricinus communis',
+        'medicinalProperty': 'Arali, also known as Castor Plant, is known for its medicinal properties, especially the oil derived from its seeds. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Laxative and purgative effects: Castor oil is widely used as a natural laxative to relieve constipation and promote bowel movements. It contains ricinoleic acid, a fatty acid that stimulates contractions in the intestines and helps move stool through the digestive tract. However, it should be used with caution and in moderation to avoid dehydration and electrolyte imbalances.',
+            'Anti-inflammatory and analgesic effects: Castor oil is applied topically to reduce inflammation and relieve pain associated with various conditions, such as arthritis, muscle strains, and joint pain. It penetrates the skin easily and has a soothing effect on inflamed tissues, promoting healing and pain relief.',
+            'Moisturizing and nourishing skin: Castor oil is a common ingredient in skincare products due to its moisturizing and emollient properties. It helps hydrate the skin, improve its elasticity, and reduce dryness and flakiness. It is often used to treat dry skin conditions like eczema, psoriasis, and dermatitis.',
+            'Promoting hair growth: Castor oil is beneficial for hair health and is used to promote hair growth, thicken hair strands, and prevent hair loss. It nourishes the scalp, strengthens the hair follicles, and improves blood circulation to the scalp, resulting in healthier and more luscious hair.'
+        ],
+        'commonGrowthLocation': 'Castor plants are native to tropical regions of Africa and Asia but are cultivated worldwide for their seeds, which are used to extract castor oil.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Arali or castor oil, especially if you have any allergies or medical conditions.'
+    },
+
+
+    'Ashoka': {
+        'scientificName': 'Saraca asoca',
+        'medicinalProperty': 'Ashoka, also known as Saraca asoca, is a medicinal tree valued for its various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Regulating menstrual cycle: Ashoka bark is traditionally used in Ayurvedic medicine to regulate the menstrual cycle and relieve symptoms associated with menstrual disorders, such as irregular periods, menstrual cramps, and excessive bleeding. It helps balance hormonal levels, improve uterine health, and promote regular menstruation.',
+            'Supporting reproductive health: Ashoka is beneficial for women\'s reproductive health and is used to treat various gynecological conditions, including uterine fibroids, ovarian cysts, and polycystic ovary syndrome (PCOS). It helps reduce inflammation, shrink fibroids and cysts, and alleviate symptoms like pelvic pain and discomfort.',
+            'Aiding in postpartum recovery: Ashoka is used to promote postpartum recovery and support lactation in new mothers. It helps tone the uterus, reduce postpartum bleeding, and enhance milk production, thereby facilitating faster recovery and better maternal health.',
+            'Relieving menopausal symptoms: Ashoka may help alleviate menopausal symptoms like hot flashes, night sweats, mood swings, and vaginal dryness. It helps balance hormonal levels, support emotional well-being, and improve overall quality of life during the menopausal transition.'
+        ],
+        'commonGrowthLocation': 'Ashoka trees are native to India and are also found in other parts of South Asia, Southeast Asia, and Australia.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Ashoka, especially if you have any allergies or medical conditions.'
+    },
+
+
+    'Ashwagandha': {
+        'scientificName': 'Withania somnifera',
+        'medicinalProperty': 'Ashwagandha, also known as Indian ginseng or winter cherry, is a medicinal herb with adaptogenic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Reducing stress and anxiety: Ashwagandha is known for its adaptogenic properties, which help the body cope with stress and reduce anxiety levels. It modulates the stress response by regulating cortisol levels, enhancing the body\'s resilience to stressors, and promoting relaxation and calmness.',
+            'Improving cognitive function: Ashwagandha has neuroprotective effects and is used to enhance cognitive function, memory, and concentration. It helps support brain health, improve nerve signaling, and protect against age-related cognitive decline and neurodegenerative disorders, such as Alzheimer\'s disease and Parkinson\'s disease.',
+            'Boosting energy and vitality: Ashwagandha is traditionally used as a rejuvenating tonic to increase energy levels, stamina, and vitality. It helps enhance physical performance, reduce fatigue, and improve overall endurance and resilience.',
+            'Supporting hormonal balance: Ashwagandha has hormone-balancing effects and is used to regulate hormonal imbalances in both men and women. It helps support thyroid function, balance cortisol levels, and improve reproductive hormone levels, thereby promoting overall hormonal health and well-being.'
+        ],
+        'commonGrowthLocation': 'Ashwagandha is native to the Indian subcontinent and is found in various parts of India, Pakistan, Sri Lanka, and Nepal. It is also cultivated in other regions with similar climatic conditions, such as parts of Africa, the Middle East, and Southeast Asia.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Ashwagandha, especially if you are pregnant, breastfeeding, or have any underlying health conditions.'
+    },
+    'Avocado': {
+        'scientificName': 'Persea americana',
+        'medicinalProperty': 'Avocado, scientifically known as Persea americana, is a fruit valued for its nutritional and medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Heart health: Avocado is rich in monounsaturated fats, particularly oleic acid, which may help reduce LDL (bad) cholesterol levels and lower the risk of heart disease. It also contains potassium, which helps regulate blood pressure and prevent hypertension, a risk factor for heart disease.',
+            'Skin health: Avocado is a good source of vitamins E and C, antioxidants that help protect the skin from oxidative damage caused by free radicals. These nutrients promote skin health, reduce inflammation, and accelerate wound healing. Avocado oil is also used topically to moisturize and nourish the skin.',
+            'Eye health: Avocado contains lutein and zeaxanthin, two carotenoid antioxidants that are beneficial for eye health. These compounds help protect the eyes from age-related macular degeneration and cataracts by filtering harmful blue light and reducing oxidative stress in the retina.',
+            'Weight management: Despite being high in calories, avocado consumption is associated with weight management and satiety. The fiber and healthy fats in avocados help increase feelings of fullness, reduce appetite, and regulate blood sugar levels, making it a valuable addition to weight loss and maintenance diets.'
+        ],
+        'commonGrowthLocation': 'Avocado trees are native to Central America and Mexico but are now cultivated in various tropical and subtropical regions worldwide, including California, Florida, and Mediterranean countries.',
+        'disclaimer': 'Consult a qualified healthcare professional before using avocado or avocado products, especially if you have any allergies or medical conditions.'
+    },
+    'Bamboo': {
+        'scientificName': 'Bambusoideae',
+        'medicinalProperty': 'Bamboo is a versatile plant with various medicinal properties. Different parts of the bamboo plant, including the shoots, leaves, and stems, are used in traditional medicine for their therapeutic effects. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Antioxidant and anti-inflammatory effects: Bamboo contains bioactive compounds like flavonoids, phenolic acids, and lignans, which possess antioxidant and anti-inflammatory properties. These compounds help neutralize free radicals, reduce inflammation, and protect against chronic diseases like cancer, diabetes, and cardiovascular disorders.',
+            'Promoting bone health: Bamboo extract is rich in silica, a mineral essential for bone health and connective tissue formation. Silica helps strengthen bones, improve bone density, and prevent conditions like osteoporosis and osteoarthritis. It also supports collagen synthesis, contributing to healthy joints and cartilage.',
+            'Supporting skin health: Bamboo extract is used in skincare products for its moisturizing, soothing, and anti-aging properties. It helps hydrate the skin, improve elasticity, and reduce wrinkles and fine lines. Bamboo sap, obtained from bamboo stems, is rich in amino acids, vitamins, and minerals that nourish and rejuvenate the skin.',
+            'Detoxifying and purifying properties: Bamboo charcoal, derived from bamboo stems, is known for its detoxifying and purifying properties. It absorbs toxins, pollutants, and impurities from the skin, making it an effective ingredient in detox masks, cleansers, and skincare products. Bamboo charcoal also helps regulate oil production, minimize pores, and prevent acne and blackheads.'
+        ],
+        'commonGrowthLocation': 'Bamboo is native to Asia but is now cultivated in various parts of the world with suitable climates, including China, India, Southeast Asia, and parts of Africa and South America.',
+        'disclaimer': 'Consult a qualified healthcare professional before using bamboo or bamboo-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Basale': {
+        'scientificName': 'Basella alba',
+        'medicinalProperty': 'Basale, also known as Malabar spinach or Indian spinach, is a leafy green vegetable with various medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Nutrient-rich: Basale is rich in vitamins, minerals, and antioxidants, making it a highly nutritious food. It is particularly high in vitamin A, vitamin C, iron, calcium, and folate, which are essential for maintaining overall health and well-being.',
+            'Supporting digestive health: Basale is a good source of dietary fiber, which helps promote digestive health by regulating bowel movements, preventing constipation, and supporting a healthy gut microbiome. Fiber also helps reduce the risk of digestive disorders like diverticulitis and hemorrhoids.',
+            'Boosting immune function: Basale contains antioxidants like vitamin C, beta-carotene, and flavonoids, which help strengthen the immune system and protect against infections and diseases. Regular consumption of Basale may help reduce the risk of colds, flu, and other respiratory infections.',
+            'Anti-inflammatory effects: Basale contains phytochemicals with anti-inflammatory properties, which help reduce inflammation and alleviate symptoms of inflammatory conditions like arthritis, asthma, and inflammatory bowel disease (IBD). Including Basale in the diet may help manage chronic inflammatory conditions and promote overall health.'
+        ],
+        'commonGrowthLocation': 'Basale is native to tropical regions of Asia and Africa and is cultivated in various parts of the world, including India, Sri Lanka, Malaysia, and Nigeria.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Basale, especially if you have any allergies or medical conditions.'
+    },
+
+
+    'Betel': {
+        'scientificName': 'Piper betle',
+        'medicinalProperty': 'Betel, also known as Piper betle, is a vine belonging to the Piperaceae family, valued for its medicinal and cultural significance. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Stimulating digestion: Betel leaves are traditionally chewed after meals to aid digestion and freshen breath. They contain bioactive compounds like eugenol, tannins, and essential oils, which stimulate saliva production, improve gastric motility, and enhance digestive enzyme activity. Betel leaves also possess carminative properties, relieving gas and bloating.',
+            'Oral health benefits: Betel leaves have antiseptic and analgesic properties, making them beneficial for oral health. Chewing betel leaves helps cleanse the mouth, prevent bacterial growth, and reduce plaque formation, reducing the risk of cavities, gum disease, and bad breath. Betel leaves are also used in traditional medicine to relieve toothache and oral ulcers.',
+            'Refreshing and energizing effects: Betel leaves have stimulating and refreshing effects on the body and mind. They contain alkaloids like arecoline and chavibetol, which act as mild stimulants, improving alertness, concentration, and mood. Chewing betel leaves is a common practice in many cultures to boost energy and relieve fatigue.',
+            'Anti-inflammatory and analgesic effects: Betel leaves have anti-inflammatory and analgesic properties, making them useful for relieving pain and inflammation associated with various conditions, such as arthritis, muscle sprains, and insect bites. Topical application of betel leaf extract or oil may help reduce swelling, redness, and discomfort.'
+        ],
+        'commonGrowthLocation': 'Betel vines are native to Southeast Asia but are cultivated in other tropical regions of the world, including India, Sri Lanka, Indonesia, and the Philippines.',
+        'disclaimer': 'Consult a qualified healthcare professional before using betel leaves or betel-derived products, especially if you have any oral health issues or medical conditions.'
+    },
+    'Betel_Nut': {
+        'scientificName': 'Areca catechu',
+        'medicinalProperty': 'Betel nut, also known as Areca catechu or areca palm, is the seed of the betel palm tree, valued for its medicinal and cultural significance. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Stimulating digestion: Betel nuts are traditionally chewed after meals to aid digestion and freshen breath. They contain bioactive compounds like arecoline, alkaloids, and tannins, which stimulate saliva production, improve gastric motility, and enhance digestive enzyme activity. Betel nuts also possess carminative properties, relieving gas and bloating.',
+            'Energizing effects: Betel nuts have stimulant properties due to the presence of alkaloids like arecoline and arecaidine. Chewing betel nuts stimulates the central nervous system, increasing alertness, concentration, and mood. It is a common practice in many cultures to chew betel nuts to boost energy and relieve fatigue.',
+            'Appetite suppression: Betel nuts have appetite-suppressing effects and are used as a natural remedy for weight loss. The stimulant properties of betel nuts help reduce feelings of hunger and promote satiety, making it easier to control food intake and prevent overeating.',
+            'Oral health benefits: Betel nuts have antiseptic properties and are beneficial for oral health. Chewing betel nuts helps cleanse the mouth, prevent bacterial growth, and reduce plaque formation, reducing the risk of cavities, gum disease, and bad breath. However, excessive consumption of betel nuts may stain the teeth and cause oral health problems.'
+        ],
+        'commonGrowthLocation': 'Betel palms are native to Southeast Asia but are cultivated in other tropical regions of the world, including India, Sri Lanka, Indonesia, and the Philippines.',
+        'disclaimer': 'Consult a qualified healthcare professional before using betel nuts or betel-derived products, especially if you have any oral health issues or medical conditions.'
+    },
+    'Brahmi': {
+        'scientificName': 'Bacopa monnieri',
+        'medicinalProperty': 'Brahmi, also known as Bacopa monnieri or water hyssop, is a medicinal herb valued for its cognitive-enhancing properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Improving cognitive function: Brahmi is known for its nootropic effects, which help enhance memory, concentration, and learning ability. It contains active compounds like bacosides, which promote nerve cell communication, increase neurotransmitter levels, and protect brain cells from oxidative damage.',
+            'Reducing anxiety and stress: Brahmi has adaptogenic properties that help the body cope with stress and reduce anxiety levels. It modulates the stress response by regulating cortisol levels, enhancing resilience to stressors, and promoting relaxation and calmness. Regular consumption of Brahmi may help improve mood stability and reduce symptoms of anxiety and depression.',
+            'Supporting brain health: Brahmi is beneficial for overall brain health and is used to prevent age-related cognitive decline and neurodegenerative disorders, such as Alzheimer\'s disease and dementia. It enhances brain circulation, increases oxygen and nutrient supply to the brain, and improves neuronal function, promoting cognitive longevity and vitality.',
+            'Enhancing sleep quality: Brahmi has sedative properties and is used to improve sleep quality and duration. It helps relax the mind and body, reduce insomnia symptoms, and promote restful sleep. Brahmi is often included in herbal sleep aids and relaxation formulas to support healthy sleep patterns.'
+        ],
+        'commonGrowthLocation': 'Brahmi is native to wetlands and marshy areas of India, Nepal, Sri Lanka, and other parts of Southeast Asia. It is also cultivated in other tropical regions of the world for its medicinal properties.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Brahmi, especially if you are pregnant, breastfeeding, or have any underlying health conditions.'
+    },
+    'Castor': {
+        'scientificName': 'Ricinus communis',
+        'medicinalProperty': 'Castor, also known as Ricinus communis, is a plant valued for its medicinal properties, especially the oil derived from its seeds. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Laxative and purgative effects: Castor oil is widely used as a natural laxative to relieve constipation and promote bowel movements. It contains ricinoleic acid, a fatty acid that stimulates contractions in the intestines and helps move stool through the digestive tract. However, it should be used with caution and in moderation to avoid dehydration and electrolyte imbalances.',
+            'Anti-inflammatory and analgesic effects: Castor oil is applied topically to reduce inflammation and relieve pain associated with various conditions, such as arthritis, muscle strains, and joint pain. It penetrates the skin easily and has a soothing effect on inflamed tissues, promoting healing and pain relief.',
+            'Moisturizing and nourishing skin: Castor oil is a common ingredient in skincare products due to its moisturizing and emollient properties. It helps hydrate the skin, improve its elasticity, and reduce dryness and flakiness. It is often used to treat dry skin conditions like eczema, psoriasis, and dermatitis.',
+            'Promoting hair growth: Castor oil is beneficial for hair health and is used to promote hair growth, thicken hair strands, and prevent hair loss. It nourishes the scalp, strengthens the hair follicles, and improves blood circulation to the scalp, resulting in healthier and more luscious hair.'
+        ],
+        'commonGrowthLocation': 'Castor plants are native to tropical regions of Africa and Asia but are cultivated worldwide for their seeds, which are used to extract castor oil.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Castor or castor oil, especially if you have any allergies or medical conditions.'
+    },
+    'Curry_Leaf': {
+        'scientificName': 'Murraya koenigii',
+        'medicinalProperty': 'Curry leaf, scientifically known as Murraya koenigii, is a medicinal plant valued for its culinary and therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Improving digestion: Curry leaves are traditionally used to aid digestion and relieve gastrointestinal issues like indigestion, bloating, and constipation. They contain carbazole alkaloids, which stimulate digestive enzymes, enhance gastric motility, and improve nutrient absorption, promoting overall digestive health.',
+            'Regulating blood sugar levels: Curry leaves have hypoglycemic properties and are beneficial for managing diabetes and insulin resistance. They help lower blood sugar levels by inhibiting carbohydrate digestion and absorption, increasing insulin sensitivity, and improving glucose utilization by cells.',
+            'Protecting liver health: Curry leaves possess hepatoprotective properties and are used to support liver function and prevent liver damage. They help detoxify the liver, eliminate toxins and free radicals, and reduce inflammation, thereby promoting liver health and preventing liver disorders like fatty liver disease and hepatitis.',
+            'Promoting hair growth: Curry leaves are rich in antioxidants, vitamins, and minerals that nourish the scalp and hair follicles, promoting hair growth and preventing hair loss. They help strengthen hair roots, improve hair texture, and reduce scalp irritation, dandruff, and premature graying.'
+        ],
+        'commonGrowthLocation': 'Curry leaf plants are native to tropical regions of India and Sri Lanka but are now cultivated in other parts of Asia, Africa, and the Americas.',
+        'disclaimer': 'Consult a qualified healthcare professional before using curry leaves or curry leaf-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Doddapatre': {
+        'scientificName': 'Plectranthus amboinicus',
+        'medicinalProperty': 'Doddapatre, also known as Cuban oregano or Indian borage, is a medicinal herb with various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Relieving respiratory symptoms: Doddapatre leaves are traditionally used to alleviate respiratory symptoms like cough, cold, asthma, and bronchitis. They contain bioactive compounds like carvacrol, thymol, and eugenol, which have expectorant, bronchodilator, and antimicrobial properties, helping clear airway congestion and reduce inflammation.',
+            'Supporting digestive health: Doddapatre is beneficial for digestive health and is used to treat gastrointestinal disorders like indigestion, bloating, and diarrhea. It helps stimulate digestive enzymes, improve nutrient absorption, and regulate bowel movements, promoting overall digestive wellness.',
+            'Reducing inflammation: Doddapatre possesses anti-inflammatory properties and is used to reduce inflammation and pain associated with various conditions, such as arthritis, gout, and insect bites. It helps inhibit inflammatory mediators, suppress inflammatory pathways, and promote tissue healing.',
+            'Promoting wound healing: Doddapatre leaves are applied topically to wounds, cuts, and insect bites to promote healing and prevent infections. They have antiseptic and antimicrobial properties, which help cleanse the wound, inhibit bacterial growth, and accelerate tissue repair and regeneration.'
+        ],
+        'commonGrowthLocation': 'Doddapatre is native to tropical and subtropical regions of Asia and Africa and is cultivated in home gardens and herbal farms for its medicinal and culinary uses.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Doddapatre, especially if you have any allergies or medical conditions.'
+    },
+    'Ekka': {
+        'scientificName': 'Madhuca longifolia',
+        'medicinalProperty': 'Ekka, also known as Madhuca longifolia or Indian butter tree, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Relieving joint pain and inflammation: Ekka oil, extracted from the seeds of the Ekka tree, is used topically to reduce joint pain, inflammation, and stiffness associated with conditions like arthritis, rheumatism, and gout. It has analgesic, anti-inflammatory, and warming properties, which help soothe sore muscles and improve joint mobility.',
+            'Nourishing and moisturizing skin: Ekka oil is a rich source of fatty acids, vitamins, and antioxidants that nourish and moisturize the skin. It helps hydrate dry skin, restore skin elasticity, and protect against moisture loss, making it beneficial for dry, rough, or irritated skin conditions.',
+            'Promoting hair growth: Ekka oil is used to promote hair growth, prevent hair loss, and improve hair texture and shine. It penetrates the scalp easily, nourishing the hair follicles, stimulating blood circulation, and promoting healthy hair growth. Ekka oil is often used in hair care formulations like hair oils and hair masks.',
+            'Supporting respiratory health: Ekka leaves are used in traditional medicine to relieve respiratory symptoms like cough, cold, and bronchitis. They have expectorant, bronchodilator, and antimicrobial properties, which help clear airway congestion, reduce inflammation, and inhibit bacterial growth in the respiratory tract.'
+        ],
+        'commonGrowthLocation': 'Ekka trees are native to the Indian subcontinent and are found in various parts of India, Nepal, Bangladesh, and Sri Lanka. They are also cultivated in other tropical and subtropical regions of Asia and Africa for their medicinal and economic value.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Ekka or Ekka-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Ganike': {
+        'scientificName': 'Piper nigrum',
+        'medicinalProperty': 'Ganike, also known as Piper nigrum or black pepper, is a spice valued for its culinary and medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Improving digestion: Ganike stimulates digestion and helps relieve gastrointestinal issues like indigestion, bloating, and constipation. It contains piperine, a bioactive compound that increases digestive enzyme activity, enhances gastric motility, and improves nutrient absorption, promoting overall digestive wellness.',
+            'Boosting metabolism: Ganike is known to boost metabolism and promote weight loss by increasing thermogenesis and fat oxidation. Piperine, the active compound in black pepper, enhances metabolic rate, improves insulin sensitivity, and reduces fat accumulation, making it beneficial for weight management.',
+            'Enhancing nutrient absorption: Ganike enhances the bioavailability of nutrients by inhibiting enzymes that metabolize drugs and nutrients in the liver and intestine. Piperine helps increase the absorption of vitamins, minerals, and phytonutrients, maximizing their health benefits and efficacy in the body.',
+            'Supporting respiratory health: Ganike has expectorant and decongestant properties, making it beneficial for respiratory health. It helps relieve respiratory symptoms like cough, cold, and congestion by loosening mucus, clearing airway passages, and reducing inflammation in the respiratory tract.'
+        ],
+        'commonGrowthLocation': 'Black pepper plants are native to South India but are cultivated in other tropical regions of Asia, Africa, and the Americas. They thrive in warm, humid climates with well-drained soil and ample sunlight.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Ganike or black pepper, especially if you have any allergies or medical conditions.'
+    },
+    'Gauva': {
+        'scientificName': 'Psidium guajava',
+        'medicinalProperty': 'Guava, scientifically known as Psidium guajava, is a tropical fruit valued for its nutritional and medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Boosting immune function: Guava is rich in vitamin C, an essential nutrient for immune function. Regular consumption of guava helps strengthen the immune system, reduce the risk of infections, and enhance the body\'s ability to fight off pathogens like bacteria and viruses.',
+            'Improving digestive health: Guava is a good source of dietary fiber, which promotes digestive health by regulating bowel movements, preventing constipation, and supporting a healthy gut microbiome. Fiber also helps reduce the risk of digestive disorders like diverticulitis and hemorrhoids.',
+            'Lowering blood sugar levels: Guava has hypoglycemic properties and is beneficial for managing diabetes and insulin resistance. It helps regulate blood sugar levels by inhibiting carbohydrate digestion and absorption, improving insulin sensitivity, and enhancing glucose utilization by cells.',
+            'Protecting cardiovascular health: Guava contains antioxidants like vitamins A and C, flavonoids, and polyphenols, which help reduce oxidative stress, inflammation, and cholesterol levels in the blood. Regular consumption of guava may help lower the risk of heart disease, stroke, and other cardiovascular disorders.'
+        ],
+        'commonGrowthLocation': 'Guava trees are native to Central America and Mexico but are now cultivated in tropical and subtropical regions worldwide, including Asia, Africa, and the Americas.',
+        'disclaimer': 'Consult a qualified healthcare professional before using guava or guava-derived products, especially if you have any allergies or medical conditions.'
+    },
+    
+    'Geranium': {
+        'scientificName': 'Pelargonium graveolens',
+        'medicinalProperty': 'Geranium, scientifically known as Pelargonium graveolens, is a medicinal plant valued for its therapeutic properties, particularly in aromatherapy and skincare. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Balancing hormones: Geranium essential oil is used in aromatherapy to balance hormones and alleviate symptoms associated with hormonal imbalances, such as menstrual cramps, PMS, and menopausal symptoms. It helps regulate estrogen and progesterone levels, reduce mood swings, and promote emotional well-being.',
+            'Improving skin health: Geranium oil is beneficial for skin health and is used in skincare products for its moisturizing, anti-inflammatory, and astringent properties. It helps hydrate the skin, reduce inflammation, and tighten pores, making it suitable for all skin types, including dry, oily, and acne-prone skin.',
+            'Relieving stress and anxiety: Geranium oil has calming and uplifting effects on the mind and body, making it useful for reducing stress, anxiety, and tension. It helps promote relaxation, improve mood, and enhance mental clarity, creating a sense of well-being and balance.',
+            'Repelling insects: Geranium oil has insect-repelling properties and is used as a natural alternative to chemical insecticides. It repels mosquitoes, flies, ticks, and other pests, making it an effective ingredient in insect repellent sprays, lotions, and candles.'
+        ],
+        'commonGrowthLocation': 'Geranium plants are native to South Africa but are now cultivated in other parts of the world for their aromatic and medicinal properties. They thrive in temperate climates and well-drained soil.',
+        'disclaimer': 'Consult a qualified healthcare professional before using geranium oil or geranium-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Henna': {
+        'scientificName': 'Lawsonia inermis',
+        'medicinalProperty': 'Henna, scientifically known as Lawsonia inermis, is a plant valued for its dyeing and medicinal properties, particularly in traditional medicine and cosmetic applications. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Hair conditioning and coloring: Henna leaves are used to make a natural hair dye that conditions the hair, adds shine, and enhances hair color. Henna dye binds to the hair shaft, coating it with a translucent color that reflects light and creates depth and dimension. It is a popular natural alternative to chemical hair dyes.',
+            'Skin cooling and soothing: Henna paste is applied topically to the skin to cool and soothe various skin conditions, including burns, rashes, and insect bites. It has a cooling effect on the skin, reducing inflammation, itching, and discomfort. Henna is also used to create intricate temporary tattoos (mehndi) for festive and ceremonial occasions.',
+            'Wound healing: Henna has antiseptic and antimicrobial properties, which help prevent infections and promote wound healing. Applying henna paste to cuts, wounds, and minor burns creates a protective barrier against bacteria and other pathogens, reducing the risk of infection and accelerating the healing process.',
+            'Treating dandruff and scalp conditions: Henna is used in hair care formulations to treat dandruff, dry scalp, and other scalp conditions. It has antifungal properties that help control dandruff-causing fungi, soothe scalp irritation, and restore scalp health.'
+        ],
+        'commonGrowthLocation': 'Henna plants are native to North Africa, the Middle East, and South Asia but are now cultivated in other parts of the world with suitable climates, including India, Pakistan, Egypt, and Sudan.',
+        'disclaimer': 'Consult a qualified healthcare professional before using henna or henna-derived products, especially if you have any allergies or skin sensitivities.'
+    },
+    'Hibiscus': {
+        'scientificName': 'Hibiscus rosa-sinensis',
+        'medicinalProperty': 'Hibiscus, scientifically known as Hibiscus rosa-sinensis, is a flowering plant valued for its medicinal properties, particularly in traditional medicine systems like Ayurveda and Chinese medicine. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Lowering blood pressure: Hibiscus tea is rich in polyphenols and anthocyanins, antioxidants that help lower blood pressure by relaxing blood vessels and improving blood flow. Regular consumption of hibiscus tea may help reduce hypertension, a risk factor for heart disease and stroke.',
+            'Supporting liver health: Hibiscus contains bioactive compounds like flavonoids and polyphenols, which have hepatoprotective properties and support liver function. It helps detoxify the liver, reduce oxidative stress, and prevent liver damage caused by toxins, alcohol, and free radicals.',
+            'Promoting weight loss: Hibiscus tea is often used as a natural weight loss aid due to its diuretic and metabolism-boosting effects. It helps flush out excess fluids and toxins from the body, reduce water retention, and increase fat metabolism, leading to weight loss and improved body composition.',
+            'Enhancing skin and hair health: Hibiscus is rich in vitamins A, C, and E, antioxidants that nourish and protect the skin and hair from oxidative damage. It helps promote collagen production, improve skin elasticity, and reduce wrinkles and fine lines. Hibiscus is also used in hair care formulations to strengthen hair follicles, prevent hair loss, and promote healthy hair growth.'
+        ],
+        'commonGrowthLocation': 'Hibiscus plants are native to tropical and subtropical regions of Asia, Africa, and the Americas but are now cultivated worldwide for their ornamental and medicinal value.',
+        'disclaimer': 'Consult a qualified healthcare professional before using hibiscus or hibiscus-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Honge': {
+        'scientificName': 'Pongamia pinnata',
+        'medicinalProperty': 'Honge, also known as Pongamia pinnata or Indian beech, is a medicinal tree valued for its various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Skin healing and protection: Honge oil, extracted from the seeds of the Honge tree, is used topically to promote skin healing and protect against skin infections. It has antiseptic, antimicrobial, and anti-inflammatory properties, which help prevent bacterial growth, reduce inflammation, and accelerate wound healing. Honge oil is often used to treat skin conditions like eczema, psoriasis, acne, and dermatitis.',
+            'Insect repellent: Honge oil is used as a natural insect repellent to protect against mosquitoes, flies, ticks, and other pests. It contains compounds like pongamol and karanjin, which repel insects by interfering with their feeding, mating, and egg-laying behaviors. Honge oil is applied topically to the skin or used in insect repellent formulations like sprays and lotions.',
+            'Promoting hair growth: Honge oil is beneficial for hair health and is used to promote hair growth, prevent hair loss, and improve hair texture and shine. It nourishes the scalp, strengthens the hair follicles, and stimulates blood circulation to the scalp, promoting healthy hair growth. Honge oil is often used in hair care products like shampoos, conditioners, and hair oils.',
+            'Supporting wound healing: Honge leaves and bark are used in traditional medicine to promote wound healing and relieve pain and inflammation. They contain bioactive compounds with antimicrobial, anti-inflammatory, and analgesic properties, which help cleanse wounds, prevent infections, and reduce swelling and discomfort.'
+        ],
+        'commonGrowthLocation': 'Honge trees are native to South Asia and Southeast Asia and are found in various parts of India, Nepal, Sri Lanka, Myanmar, Thailand, and Indonesia. They are also cultivated in other tropical and subtropical regions of the world for their medicinal and economic value.',
+        'disclaimer': 'Consult a qualified healthcare professional before using Honge or Honge-derived products, especially if you have any allergies or medical conditions.'
+    },
+
+
+    'Insulin': {
+    'scientificName': 'Coccinia grandis',
+    'medicinalProperty': 'Insulin plant, scientifically known as Coccinia grandis, is a medicinal plant valued for its antidiabetic properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Lowering blood sugar levels: Insulin plant leaves contain bioactive compounds like flavonoids, alkaloids, and saponins, which help lower blood sugar levels by stimulating insulin production and improving insulin sensitivity. Regular consumption of insulin plant leaves may help manage diabetes and reduce the risk of complications associated with high blood sugar levels.',
+      'Supporting liver health: Insulin plant has hepatoprotective properties and is beneficial for liver health. It helps detoxify the liver, reduce oxidative stress, and prevent liver damage caused by toxins, alcohol, and free radicals. Insulin plant leaves are used in traditional medicine to support liver function and treat liver disorders like fatty liver disease and hepatitis.',
+      'Reducing inflammation: Insulin plant possesses anti-inflammatory properties, which help reduce inflammation and pain associated with various conditions, such as arthritis, gout, and inflammatory bowel disease (IBD). It helps inhibit inflammatory mediators, suppress inflammatory pathways, and promote tissue healing, improving overall health and well-being.',
+      'Promoting wound healing: Insulin plant leaves are applied topically to wounds, cuts, and insect bites to promote healing and prevent infections. They have antiseptic and antimicrobial properties, which help cleanse the wound, inhibit bacterial growth, and accelerate tissue repair and regeneration.'
     ],
-    'Amla': [
-        {
-            'scientific_name': 'Phyllanthus emblica',
-            'scientific_medicinal_properties': 'Phyllanthus emblica, commonly known as Indian gooseberry or amla, is a deciduous tree native to the Indian subcontinent.',
-            'common_location': 'Amla trees are found in forests, plains, and hilly regions throughout India, Nepal, Sri Lanka, and Southeast Asia.',
-            'popular_usecase': 'Amla fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is rich in vitamin C, antioxidants, and other nutrients. Amla is known for its digestive, immune-boosting, and anti-inflammatory properties. It is used to support digestion, enhance immunity, and promote overall well-being. Amla is also used in Ayurvedic medicine for its rejuvenating, anti-aging, and hair growth-promoting effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using amla, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Amla is valued for its sour taste and health benefits. It is used to support digestion, boost immunity, and promote overall wellness.'
-        }
+    'commonGrowthLocation': 'Insulin plants are native to tropical and subtropical regions of Asia, Africa, and Australia and are cultivated in home gardens and herbal farms for their medicinal and culinary uses.',
+    'disclaimer': 'Consult a qualified healthcare professional before using insulin plant leaves or insulin plant-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Jasmine': {
+    'scientificName': 'Jasminum sambac',
+    'medicinalProperty': 'Jasmine, scientifically known as Jasminum sambac, is a flowering plant valued for its aromatic flowers and medicinal properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Relieving stress and anxiety: Jasmine essential oil is used in aromatherapy to reduce stress, anxiety, and depression and promote relaxation and emotional well-being. Its sweet, floral scent has a calming effect on the mind and body, helping alleviate tension, improve mood, and induce feelings of comfort and tranquility.',
+      'Improving sleep quality: Jasmine oil is beneficial for promoting restful sleep and treating insomnia and sleep disorders. Its sedative properties help relax the nervous system, reduce sleep latency, and improve sleep duration and quality. Inhaling jasmine oil or using it in a diffuser before bedtime can help create a soothing sleep environment and enhance sleep hygiene.',
+      'Enhancing skin health: Jasmine oil is used in skincare products for its moisturizing, toning, and rejuvenating properties. It helps hydrate the skin, reduce dryness and irritation, and improve skin elasticity and texture. Jasmine oil is suitable for all skin types and is often used in facial oils, serums, and moisturizers to promote healthy, radiant skin.',
+      'Relieving muscle pain and spasms: Jasmine oil has analgesic and antispasmodic properties, making it useful for relieving muscle pain, cramps, and spasms. It helps relax tense muscles, reduce inflammation, and improve blood circulation, providing relief from soreness, stiffness, and discomfort.'
     ],
-    'Amruta_Balli': [
-        {
-            'scientific_name': 'Tinospora cordifolia',
-            'scientific_medicinal_properties': 'Tinospora cordifolia, commonly known as guduchi or amruta balli, is a climbing shrub in the family Menispermaceae.',
-            'common_location': 'Tinospora cordifolia is found in tropical and subtropical regions of India, Sri Lanka, Myanmar, and other parts of Southeast Asia.',
-            'popular_usecase': 'Tinospora cordifolia is used in traditional Ayurvedic medicine for its immunomodulatory, antioxidant, and anti-inflammatory properties. It is considered an adaptogen, which helps the body adapt to stress and maintain homeostasis. Tinospora cordifolia is used to boost immunity, improve liver function, and support overall well-being. It is also used to treat fever, respiratory infections, and digestive disorders. Tinospora cordifolia extract is used in herbal supplements, tonics, and remedies for its health-promoting effects.',
-            'Disclaimer': 'Consult a qualified Ayurvedic practitioner before using tinospora cordifolia, especially if you have any medical conditions or are pregnant.',
-            'lament_medicinal_property': 'Tinospora cordifolia is valued for its bitter taste and medicinal properties. It is used to boost immunity, support liver health, and promote overall wellness.'
-        }
+    'commonGrowthLocation': 'Jasmine plants are native to tropical and subtropical regions of Asia, Africa, and Australasia but are now cultivated worldwide for their ornamental and medicinal value.',
+    'disclaimer': 'Consult a qualified healthcare professional before using jasmine oil or jasmine-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Lemon': {
+    'scientificName': 'Citrus limon',
+    'medicinalProperty': 'Lemon, scientifically known as Citrus limon, is a citrus fruit valued for its nutritional and medicinal properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Boosting immune function: Lemons are rich in vitamin C, an essential nutrient for immune function. Regular consumption of lemon juice helps strengthen the immune system, reduce the risk of infections, and enhance the body\'s ability to fight off pathogens like bacteria and viruses.',
+      'Supporting digestion: Lemon juice has digestive properties and is used to alleviate gastrointestinal issues like indigestion, bloating, and constipation. It helps stimulate digestive enzymes, enhance gastric motility, and improve nutrient absorption, promoting overall digestive wellness.',
+      'Alkalizing the body: Despite being acidic in nature, lemons have an alkalizing effect on the body when metabolized. They help balance the body\'s pH levels, reduce acidity, and create a more alkaline environment, which is believed to promote overall health and well-being.',
+      'Detoxifying the liver: Lemons contain compounds like citric acid and flavonoids, which help detoxify the liver, stimulate bile production, and eliminate toxins and waste products from the body. Regular consumption of lemon water or lemon juice may help support liver function and improve liver health.'
     ],
-    'Arali': [
-        {
-            'scientific_name': 'Ficus racemosa',
-            'scientific_medicinal_properties': 'Ficus racemosa, commonly known as cluster fig or arali, is a species of plant in the family Moraceae.',
-            'common_location': 'Ficus racemosa is native to tropical and subtropical regions of Asia, including India, Sri Lanka, Nepal, and Southeast Asia.',
-            'popular_usecase': 'Ficus racemosa is used in traditional medicine for its medicinal properties. It is believed to have anti-inflammatory, analgesic, and antimicrobial effects. Ficus racemosa is used to treat various ailments, including skin disorders, respiratory problems, and digestive issues. Its leaves, bark, and fruits are used in herbal remedies, decoctions, and poultices. Ficus racemosa is also valued for its edible fruits, which are consumed fresh or processed into jams, jellies, and culinary dishes.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using ficus racemosa, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Ficus racemosa is valued for its medicinal properties and edible fruits. It is used to treat various health conditions and promote overall well-being.',
-        }
+    'commonGrowthLocation': 'Lemon trees are native to South Asia but are now cultivated in other tropical and subtropical regions worldwide, including India, China, Mexico, and the Mediterranean countries.',
+    'disclaimer': 'Consult a qualified healthcare professional before using lemons or lemon-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Lemon_grass': {
+    'scientificName': 'Cymbopogon citratus',
+    'medicinalProperty': 'Lemongrass, scientifically known as Cymbopogon citratus, is a medicinal herb valued for its various therapeutic properties, particularly in traditional medicine systems like Ayurveda and Traditional Chinese Medicine (TCM). Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Relieving digestive issues: Lemongrass is used to alleviate digestive issues like indigestion, bloating, and stomach cramps. It contains compounds like citral, which help relax the stomach muscles, improve digestion, and reduce gastrointestinal discomfort.',
+      'Reducing inflammation: Lemongrass has anti-inflammatory properties that help reduce inflammation and pain associated with conditions like arthritis, muscle aches, and headaches. It inhibits the production of inflammatory compounds in the body, providing relief from swelling and discomfort.',
+      'Lowering cholesterol levels: Lemongrass tea is believed to help lower cholesterol levels and improve heart health. It contains antioxidants like flavonoids, which help reduce oxidative stress and inflammation in the arteries, lowering the risk of cardiovascular diseases like atherosclerosis and heart attacks.',
+      'Promoting relaxation and sleep: Lemongrass has calming and sedative effects on the nervous system, making it beneficial for reducing stress, anxiety, and insomnia. Drinking lemongrass tea or inhaling its aroma helps promote relaxation, improve mood, and induce restful sleep.'
     ],
-    'Ashoka': [
-        {
-            'scientific_name': 'Saraca asoca',
-            'scientific_medicinal_properties': 'Saraca asoca, commonly known as ashoka or sorrowless tree, is a species of flowering plant in the family Fabaceae.',
-            'common_location': 'Saraca asoca is native to the Indian subcontinent, particularly the Western Ghats and Eastern Ghats of India.',
-            'popular_usecase': 'Saraca asoca is considered a sacred tree in Hinduism and Buddhism. It is associated with love, fertility, and feminine energy. Saraca asoca bark is used in traditional Ayurvedic medicine for its uterine tonic, anti-inflammatory, and analgesic properties. It is used to treat gynecological disorders, menstrual problems, and reproductive issues. Saraca asoca flowers are used in religious rituals, prayers, and ceremonies as offerings to the gods and goddesses. Saraca asoca is also planted as an ornamental tree in gardens, parks, and temples for its attractive foliage and flowers.',
-            'Disclaimer': 'Consult a qualified Ayurvedic practitioner before using saraca asoca, especially if you have any medical conditions or are pregnant.',
-            'lament_medicinal_property': "Saraca asoca is valued for its cultural significance and medicinal properties. It is used to support women's health, promote fertility, and enhance overall well-being."
-        }
+    'commonGrowthLocation': 'Lemongrass is native to tropical regions of Asia, Africa, and Australia but is now cultivated in other parts of the world for its culinary and medicinal uses. It thrives in warm climates with well-drained soil and ample sunlight.',
+    'disclaimer': 'Consult a qualified healthcare professional before using lemongrass or lemongrass-derived products, especially if you have any allergies or medical conditions.'
+  },
+
+
+   'Mango': {
+    'scientificName': 'Mangifera indica',
+    'medicinalProperty': 'Mango, scientifically known as Mangifera indica, is a tropical fruit valued for its delicious taste and various health benefits. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Boosting immune function: Mangoes are rich in vitamins A and C, antioxidants that help strengthen the immune system and protect against infections. Regular consumption of mangoes may help reduce the risk of colds, flu, and other respiratory infections.',
+      'Improving digestion: Mangoes contain dietary fiber and enzymes like amylases, which aid digestion and promote gastrointestinal health. They help regulate bowel movements, prevent constipation, and support a healthy gut microbiome, reducing the risk of digestive disorders like irritable bowel syndrome (IBS) and colon cancer.',
+      'Supporting heart health: Mangoes contain potassium, magnesium, and antioxidants like quercetin and beta-carotene, which help regulate blood pressure, reduce cholesterol levels, and protect against oxidative stress and inflammation in the cardiovascular system. Regular consumption of mangoes may help lower the risk of heart disease, stroke, and other cardiovascular disorders.',
+      'Promoting skin health: Mangoes are rich in vitamins A and E, antioxidants that nourish and protect the skin from oxidative damage caused by UV radiation, pollution, and other environmental factors. They help promote collagen production, improve skin elasticity, and reduce wrinkles and fine lines, enhancing overall skin health and appearance.'
     ],
-    'Ashwagandha': [
-        {
-            'scientific_name': 'Withania somnifera',
-            'scientific_medicinal_properties': 'Withania somnifera, commonly known as ashwagandha or Indian ginseng, is a medicinal plant in the nightshade family Solanaceae.',
-            'common_location': 'Withania somnifera is native to India, Pakistan, and Sri Lanka, but it is cultivated in other parts of Asia, Africa, and the Mediterranean region.',
-            'popular_usecase': 'Withania somnifera is used in traditional Ayurvedic medicine as an adaptogen, which helps the body cope with stress and promote overall well-being. It is believed to have anti-inflammatory, antioxidant, and immunomodulatory effects. Withania somnifera is used to reduce stress, improve cognitive function, and enhance physical performance. It is also used to treat anxiety, depression, and insomnia. Withania somnifera root extract is used in herbal supplements, tonics, and remedies for its health-promoting properties.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using withania somnifera, especially if you have any medical conditions or are pregnant.',
-            'lament_medicinal_property': 'Withania somnifera is valued for its adaptogenic properties and health benefits. It is used to reduce stress, boost immunity, and promote overall wellness.'
-        }
+    'commonGrowthLocation': 'Mango trees are native to South Asia but are now cultivated in tropical and subtropical regions worldwide, including India, Southeast Asia, Africa, and the Americas.',
+    'disclaimer': 'Consult a qualified healthcare professional before using mangoes or mango-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Mint': {
+    'scientificName': 'Mentha',
+    'medicinalProperty': 'Mint, scientifically known as Mentha, is a medicinal herb valued for its various therapeutic properties, particularly in traditional medicine systems like Ayurveda and Western herbalism. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Relieving digestive issues: Mint is commonly used to alleviate digestive issues like indigestion, bloating, and stomach cramps. It contains compounds like menthol, which help relax the muscles of the digestive tract, improve bile flow, and reduce gastrointestinal discomfort.',
+      'Reducing nausea and vomiting: Mint is effective in relieving nausea and vomiting associated with motion sickness, morning sickness during pregnancy, chemotherapy, and other causes. Its aroma and flavor help calm the stomach, suppress the urge to vomit, and promote relaxation.',
+      'Relieving headaches and migraines: Mint has analgesic and vasodilator properties that help relieve headaches and migraines. Applying mint oil or inhaling its aroma helps relax tense muscles, improve blood circulation, and alleviate pain and discomfort associated with headaches.',
+      'Improving respiratory health: Mint has decongestant and expectorant properties that help relieve respiratory symptoms like cough, congestion, and asthma. It helps clear airway passages, reduce inflammation in the respiratory tract, and promote easier breathing.'
     ],
-    'Avacado': [
-        {
-            'scientific_name': 'Persea americana',
-            'scientific_medicinal_properties': 'Persea americana, commonly known as avocado, is a tree native to South Central Mexico.',
-            'common_location': 'Avocado trees are cultivated in tropical and subtropical regions worldwide for their edible fruits, which are prized for their rich flavor and creamy texture.',
-            'popular_usecase': 'Avocado fruit is consumed fresh or processed into guacamole, salads, sandwiches, and culinary dishes. It is rich in healthy fats, vitamins, minerals, and antioxidants. Avocado is known for its heart-healthy properties, including lowering cholesterol levels and reducing the risk of heart disease. It is also used in skincare products for its moisturizing and anti-aging effects. Avocado oil is used in cooking, cosmetics, and massage therapy for its nourishing and hydrating properties.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using avocado, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Avocado is valued for its delicious taste and health benefits. It is used to support heart health, promote skin health, and enhance overall well-being.'
-        }
+    'commonGrowthLocation': 'Mint is native to Europe, Asia, and North America but is now cultivated in other parts of the world for its culinary and medicinal uses. It thrives in moist soil and temperate climates with partial shade.',
+    'disclaimer': 'Consult a qualified healthcare professional before using mint or mint-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Nagadali': {
+    'scientificName': 'Tabernaemontana divaricata',
+    'medicinalProperty': 'Nagadali, also known as Tabernaemontana divaricata or pinwheel flower, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Relieving pain and inflammation: Nagadali is used to alleviate pain and inflammation associated with conditions like arthritis, rheumatism, and muscle strains. It contains bioactive compounds with analgesic and anti-inflammatory properties, which help reduce pain, swelling, and stiffness in the joints and muscles.',
+      'Promoting relaxation and sleep: Nagadali has sedative and anxiolytic effects on the nervous system, making it useful for reducing stress, anxiety, and insomnia. Drinking nagadali tea or inhaling its aroma helps promote relaxation, improve mood, and induce restful sleep.',
+      'Supporting respiratory health: Nagadali is beneficial for respiratory health and is used to relieve cough, cold, and bronchitis. It has expectorant and bronchodilator properties that help clear airway congestion, reduce inflammation in the respiratory tract, and promote easier breathing.',
+      'Enhancing skin health: Nagadali is used topically to promote skin health and treat various skin conditions like acne, eczema, and dermatitis. It has antimicrobial and anti-inflammatory properties, which help cleanse the skin, inhibit bacterial growth, and reduce inflammation and itching.'
     ],
-    'Bamboo': [
-        {
-            'scientific_name': 'Bambusoideae',
-            'scientific_medicinal_properties': 'Bamboo is a group of perennial evergreen plants in the subfamily Bambusoideae of the grass family Poaceae.',
-            'common_location': 'Bamboo is native to various regions of the world, including Asia, Africa, and the Americas. It is widely cultivated for its economic, environmental, and cultural significance.',
-            'popular_usecase': 'Bamboo is used for a wide range of purposes, including construction, furniture, papermaking, textiles, and food. Bamboo shoots are consumed as a vegetable in Asian cuisines and are valued for their nutritional benefits. Bamboo leaves, stems, and roots are used in traditional medicine for their medicinal properties. Bamboo extract is used in herbal remedies, supplements, and skincare products for its antioxidant, anti-inflammatory, and anti-aging effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using bamboo, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Bamboo is valued for its versatility and medicinal properties. It is used to promote health, support sustainability, and enhance overall well-being.'
-        }
+    'commonGrowthLocation': 'Nagadali plants are native to South and Southeast Asia and are found in various parts of India, Sri Lanka, Myanmar, Thailand, and Indonesia. They are also cultivated in other tropical and subtropical regions of the world for their medicinal and ornamental value.',
+    'disclaimer': 'Consult a qualified healthcare professional before using nagadali or nagadali-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Neem': {
+    'scientificName': 'Azadirachta indica',
+    'medicinalProperty': 'Neem, scientifically known as Azadirachta indica, is a medicinal tree valued for its various therapeutic properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Treating skin conditions: Neem is used to treat various skin conditions like acne, eczema, psoriasis, and fungal infections. It has antimicrobial, anti-inflammatory, and antiseptic properties, which help cleanse the skin, inhibit bacterial and fungal growth, and reduce inflammation and itching.',
+      'Promoting dental health: Neem is beneficial for dental health and is used in traditional oral care products like toothpaste, mouthwash, and dental powders. It helps prevent dental caries, gum disease, and bad breath by inhibiting bacterial growth, reducing plaque formation, and maintaining oral hygiene.',
+      'Supporting immune function: Neem boosts immune function and helps the body fight off infections and diseases. It contains bioactive compounds like nimbin, nimbidin, and quercetin, which stimulate the production of immune cells, enhance their activity, and strengthen the body\'s defense mechanisms against pathogens like bacteria, viruses, and fungi.',
+      'Regulating blood sugar levels: Neem leaves and extracts are beneficial for managing diabetes and insulin resistance. They help lower blood sugar levels by improving insulin sensitivity, inhibiting carbohydrate digestion and absorption, and enhancing glucose utilization by cells.'
     ],
-    'Basale': [
-        {
-            'scientific_name': 'Basella alba',
-            'scientific_medicinal_properties': 'Basella alba, commonly known as Malabar spinach or basale, is a fast-growing vine in the family Basellaceae.',
-            'common_location': 'Basella alba is native to tropical Asia, but it is cultivated in other parts of the world for its edible leaves and shoots.',
-            'popular_usecase': 'Basella alba leaves and stems are consumed as a leafy vegetable in various cuisines, including Indian, Southeast Asian, and African cuisines. They are valued for their high nutritional content, including vitamins, minerals, and antioxidants. Basella alba is known for its cooling and diuretic properties. It is used to promote hydration, support kidney health, and reduce inflammation. Basella alba leaves are also used in traditional medicine for their medicinal properties. They are used to treat gastrointestinal disorders, respiratory problems, and skin conditions.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using basella alba, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Basella alba is valued for its nutritional value and health benefits. It is used to promote hydration, support kidney health, and enhance overall well-being.'
-        }
+    'commonGrowthLocation': 'Neem trees are native to the Indian subcontinent and are found in various parts of India, Nepal, Bangladesh, Sri Lanka, and Pakistan. They are also cultivated in other tropical and subtropical regions of Asia, Africa, and the Americas for their medicinal and economic value.',
+    'disclaimer': 'Consult a qualified healthcare professional before using neem or neem-derived products, especially if you have any allergies or medical conditions.'
+  },
+
+
+    'Nithyapushpa': {
+    'scientificName': 'Vinca rosea',
+    'medicinalProperty': 'Nithyapushpa, also known as Vinca rosea or Madagascar periwinkle, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Treating diabetes: Nithyapushpa is used to manage diabetes and improve blood sugar control. It contains bioactive compounds like alkaloids, which help lower blood sugar levels by stimulating insulin secretion, increasing glucose uptake by cells, and inhibiting glucose absorption in the intestine.',
+      'Fighting cancer: Nithyapushpa has anticancer properties and is used as a natural remedy for cancer prevention and treatment. It contains alkaloids like vincristine and vinblastine, which inhibit the growth of cancer cells, induce apoptosis (cell death), and prevent tumor progression in various types of cancer, including leukemia, lymphoma, and solid tumors.',
+      'Relieving menstrual disorders: Nithyapushpa is beneficial for relieving menstrual disorders like irregular periods, menstrual cramps, and excessive bleeding. It helps regulate menstrual cycles, reduce menstrual pain and discomfort, and balance hormonal levels, improving overall menstrual health and well-being.',
+      'Enhancing cognitive function: Nithyapushpa has neuroprotective properties and is used to enhance cognitive function and memory. It contains alkaloids and flavonoids, which protect brain cells from oxidative stress and inflammation, improve cerebral blood flow, and enhance neurotransmitter activity, promoting mental clarity and cognitive performance.'
     ],
-    'Betel': [
-        {
-            'scientific_name': 'Piper betle',
-            'scientific_medicinal_properties': 'Piper betle, commonly known as betel leaf or paan, is a vine belonging to the Piperaceae family.',
-            'common_location': 'Piper betle is native to Southeast Asia, but it is cultivated in other parts of Asia for its medicinal and cultural significance.',
-            'popular_usecase': 'Piper betle leaves are used in traditional medicine and cultural practices for their medicinal and stimulant properties. Betel leaves are chewed with areca nut, slaked lime, and other ingredients to make betel quid, a traditional preparation known as paan. Betel quid is used for its stimulating, euphoric, and digestive effects. It is believed to improve digestion, freshen breath, and increase alertness. Betel leaves are also used in religious rituals, prayers, and ceremonies as offerings to deities and ancestors.',
-            'Disclaimer': 'Chewing betel quid can have adverse effects on oral health, including staining of teeth, gum disease, and oral cancer. Consult a qualified healthcare professional before using betel leaves.',
-            'lament_medicinal_property': 'Piper betle is valued for its cultural significance and medicinal properties. It is used as a stimulant, digestive aid, and breath freshener.'
-        }
+    'commonGrowthLocation': 'Nithyapushpa plants are native to Madagascar but are now cultivated in other tropical and subtropical regions of the world for their medicinal and ornamental value. They are also considered invasive species in some regions due to their prolific growth and spread.',
+    'disclaimer': 'Consult a qualified healthcare professional before using nithyapushpa or nithyapushpa-derived products, especially if you have any allergies or medical conditions.'
+  },
+  'Nooni': {
+    'scientificName': 'Vitex negundo',
+    'medicinalProperty': 'Nooni, also known as Vitex negundo or five-leaved chaste tree, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+    'medicinalDetails': [
+      'Relieving pain and inflammation: Nooni is used to alleviate pain and inflammation associated with conditions like arthritis, rheumatism, and muscle strains. It contains bioactive compounds with analgesic and anti-inflammatory properties, which help reduce pain, swelling, and stiffness in the joints and muscles.',
+      'Treating respiratory disorders: Nooni is beneficial for respiratory health and is used to relieve cough, cold, asthma, and bronchitis. It has expectorant, bronchodilator, and anti-inflammatory properties that help clear airway congestion, reduce inflammation in the respiratory tract, and promote easier breathing.',
+      'Supporting digestive health: Nooni is used to alleviate digestive issues like indigestion, bloating, and stomach cramps. It contains compounds like flavonoids and terpenoids, which help relax the muscles of the digestive tract, improve bile flow, and reduce gastrointestinal discomfort.',
+      'Promoting wound healing: Nooni leaves and bark are applied topically to wounds, cuts, and insect bites to promote healing and prevent infections. They have antiseptic and antimicrobial properties, which help cleanse the wound, inhibit bacterial growth, and accelerate tissue repair and regeneration.'
     ],
-    'Betel_Nut': [
-        {
-            'scientific_name': 'Areca catechu',
-            'scientific_medicinal_properties': 'Areca catechu, commonly known as betel nut or areca nut, is the seed of the areca palm tree.',
-            'common_location': 'Areca catechu is native to tropical and subtropical regions of Asia and the Pacific Islands.',
-            'popular_usecase': 'Areca catechu seeds are chewed with betel leaves, slaked lime, and other ingredients to make betel quid, a traditional preparation known as paan. Betel quid is used for its stimulating, euphoric, and digestive effects. It is believed to improve digestion, freshen breath, and increase alertness. Areca catechu is also used in traditional medicine for its medicinal properties. It is used to treat digestive disorders, oral health problems, and parasitic infections. Areca catechu extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Chewing betel quid can have adverse effects on oral health, including staining of teeth, gum disease, and oral cancer. Consult a qualified healthcare professional before using areca catechu.',
-            'lament_medicinal_property': 'Areca catechu is valued for its stimulating properties and potential health benefits. It is used to promote digestion, freshen breath, and support overall well-being.'
-        }
-    ],
-    'Brahmi': [
-        {
-            'scientific_name': 'Bacopa monnieri',
-            'scientific_medicinal_properties': 'Bacopa monnieri, commonly known as brahmi or water hyssop, is a perennial herb native to wetlands and marshy areas of India, Southeast Asia, and Australia.',
-            'common_location': 'Bacopa monnieri is found in tropical and subtropical regions worldwide, including India, Nepal, Sri Lanka, China, and the United States.',
-            'popular_usecase': 'Bacopa monnieri is used in traditional Ayurvedic medicine as a brain tonic and adaptogen. It is believed to enhance cognitive function, memory, and concentration. Bacopa monnieri is used to reduce stress, anxiety, and depression. It is also used to treat epilepsy, asthma, and other neurological and respiratory disorders. Bacopa monnieri extract is used in herbal supplements and remedies for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified Ayurvedic practitioner before using bacopa monnieri, especially if you have any medical conditions or are pregnant.',
-            'lament_medicinal_property': 'Bacopa monnieri is valued for its cognitive-enhancing properties and adaptogenic effects. It is used to support brain health, reduce stress, and promote overall well-being.'
-        }
-    ],
-    'Castor': [
-        {
-            'scientific_name': 'Ricinus communis',
-            'scientific_medicinal_properties': 'Ricinus communis, commonly known as castor bean or castor oil plant, is a species of flowering plant in the spurge family Euphorbiaceae.',
-            'common_location': 'Ricinus communis is native to tropical and subtropical regions of Africa and Asia, but it is cultivated worldwide for its seeds, which are used to produce castor oil.',
-            'popular_usecase': 'Castor oil is extracted from the seeds of Ricinus communis and is used in various industries, including cosmetics, pharmaceuticals, and manufacturing. Castor oil is valued for its moisturizing, emollient, and anti-inflammatory properties. It is used to treat skin conditions, such as dryness, itching, and inflammation. Castor oil is also used in traditional medicine for its laxative and purgative effects. It is used to relieve constipation, promote bowel movements, and cleanse the digestive system. Castor oil is also used in hair care products for its nourishing and conditioning properties.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using ricinus communis, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Ricinus communis is valued for its versatile uses and medicinal properties. It is used to promote skin health, support digestive health, and enhance overall well-being.'
-        }
-    ],
-    'Curry_Leaf': [
-        {
-            'scientific_name': 'Murraya koenigii',
-            'scientific_medicinal_properties': 'Murraya koenigii, commonly known as curry leaf or kadi patta, is a tropical to sub-tropical tree in the family Rutaceae.',
-            'common_location': 'Murraya koenigii is native to India and Sri Lanka, but it is cultivated in other parts of Asia, Africa, and the Americas for its culinary and medicinal uses.',
-            'popular_usecase': 'Murraya koenigii leaves are used as a flavoring agent in Indian cuisine, particularly South Indian and Sri Lankan dishes. They are valued for their aromatic and medicinal properties. Murraya koenigii leaves are rich in antioxidants, vitamins, and minerals. They are used to enhance the flavor and aroma of curries, soups, stews, and other dishes. Murraya koenigii leaves are also used in traditional medicine for their health benefits. They are used to treat digestive disorders, diabetes, and skin problems. Murraya koenigii extract is used in herbal remedies and supplements for its potential health-promoting effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using murraya koenigii, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Murraya koenigii is valued for its culinary and medicinal properties. It is used to enhance flavor, promote digestion, and support overall well-being.'
-        }
-    ],
-    'Doddapatre': [
-        {
-            'scientific_name': 'Coleus amboinicus',
-            'scientific_medicinal_properties': 'Coleus amboinicus, commonly known as Indian borage or doddapatre, is a perennial herb in the mint family Lamiaceae.',
-            'common_location': 'Coleus amboinicus is native to Southern and Eastern Africa, but it is cultivated in other parts of the world for its culinary and medicinal uses.',
-            'popular_usecase': 'Coleus amboinicus leaves are used as a culinary herb in various cuisines, including Indian, African, and Caribbean cuisines. They are valued for their aromatic and medicinal properties. Coleus amboinicus leaves are rich in essential oils, vitamins, and minerals. They are used to flavor curries, soups, stews, and other dishes. Coleus amboinicus is also used in traditional medicine for its health benefits. It is used to treat respiratory problems, digestive disorders, and skin conditions. Coleus amboinicus extract is used in herbal remedies and supplements for its potential health-promoting effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using coleus amboinicus, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Coleus amboinicus is valued for its culinary and medicinal properties. It is used to enhance flavor, promote respiratory health, and support overall well-being.'
-        }
-    ],
-    'Ekka': [
-        {
-            'scientific_name': 'Tamarindus indica',
-            'scientific_medicinal_properties': 'Tamarindus indica, commonly known as tamarind, is a leguminous tree in the family Fabaceae.',
-            'common_location': 'Tamarindus indica is native to tropical Africa, but it is cultivated in other parts of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Tamarind fruit is used in cooking, beverages, and traditional medicine. It is valued for its sweet and sour flavor and culinary versatility. Tamarind is used to flavor curries, chutneys, sauces, and beverages. It is also used as a natural preservative and digestive aid. Tamarind pulp is used in traditional medicine for its laxative, diuretic, and anti-inflammatory properties. It is used to treat digestive disorders, fever, and skin conditions. Tamarind extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using tamarindus indica, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Tamarindus indica is valued for its culinary and medicinal properties. It is used to enhance flavor, promote digestion, and support overall well-being.'
-        }
-    ],
-    'Ganike': [
-        {
-            'scientific_name': 'Basil',
-            'scientific_medicinal_properties': 'Ocimum basilicum',
-            'common_location': 'Basil is native to tropical regions from central Africa to Southeast Asia. It is prominently featured in various cuisines throughout the world.',
-            'popular_usecase': 'Basil is used in cuisines worldwide, particularly in Italian, Thai, and Vietnamese dishes. It is known for its sweet, aromatic flavor with hints of pepper, anise, and mint. Basil is used fresh or dried in salads, sauces, soups, and pasta dishes. It is also used to flavor oils, vinegars, and beverages. Basil is valued not only for its culinary uses but also for its medicinal properties. It is used in traditional medicine for its antibacterial, anti-inflammatory, and antioxidant effects. Basil is believed to promote digestion, relieve stress, and support overall well-being.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using basil, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Basil is valued for its culinary versatility and medicinal properties. It is used to enhance flavor, promote digestion, and support overall well-being.'
-        }
-    ],
-    'Gauva': [
-        {
-            'scientific_name': 'Psidium guajava',
-            'scientific_medicinal_properties': 'Psidium guajava, commonly known as guava, is a tropical fruit tree in the family Myrtaceae.',
-            'common_location': 'Psidium guajava is native to tropical regions of Central America, but it is cultivated in other parts of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Guava fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its sweet and tangy flavor, rich aroma, and nutritional benefits. Guava is high in vitamin C, fiber, and antioxidants. It is known for its digestive, immune-boosting, and anti-inflammatory properties. Guava is used to promote digestion, enhance immunity, and support overall well-being. Guava leaves and bark are used in traditional medicine for their medicinal properties. They are used to treat diarrhea, dysentery, and other gastrointestinal problems. Guava extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using psidium guajava, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Psidium guajava is valued for its delicious taste and health benefits. It is used to promote digestion, boost immunity, and enhance overall well-being.'
-        }
-    ],
-    'Geranium': [
-        {
-            'scientific_name': 'Pelargonium graveolens',
-            'scientific_medicinal_properties': 'Pelargonium graveolens, commonly known as geranium, is a species of flowering plant in the family Geraniaceae.',
-            'common_location': 'Pelargonium graveolens is native to South Africa, but it is cultivated in other parts of the world for its ornamental and medicinal uses.',
-            'popular_usecase': 'Pelargonium graveolens essential oil is used in aromatherapy, skincare, and traditional medicine. It is valued for its sweet, floral aroma and therapeutic properties. Pelargonium graveolens oil is used to reduce stress, anxiety, and depression. It is also used to balance hormones, improve mood, and promote relaxation. Pelargonium graveolens oil is used topically to treat skin conditions, such as acne, eczema, and dermatitis. It is also used in massage therapy for its soothing and anti-inflammatory effects. Pelargonium graveolens leaves and flowers are used in herbal teas, infusions, and poultices for their potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using pelargonium graveolens, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Pelargonium graveolens is valued for its aromatic fragrance and medicinal properties. It is used to promote relaxation, improve mood, and support skin health.'
-        }
-    ],
-    'Henna': [
-        {
-            'scientific_name': 'Lawsonia inermis',
-            'scientific_medicinal_properties': 'Lawsonia inermis, commonly known as henna, is a flowering plant in the family Lythraceae.',
-            'common_location': 'Lawsonia inermis is native to tropical and subtropical regions of Africa, Asia, and Australia.',
-            'popular_usecase': 'Henna leaves are used to produce a natural dye known as henna or mehndi. Henna dye is used to color hair, skin, and nails for cosmetic and decorative purposes. It is valued for its vibrant color, long-lasting stain, and cooling properties. Henna paste is applied to the skin in intricate designs for temporary body art and tattoos. Henna is also used in traditional medicine for its medicinal properties. It is used to treat various skin conditions, such as eczema, psoriasis, and burns. Henna extract is used in herbal remedies and cosmetics for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using lawsonia inermis, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Lawsonia inermis is valued for its cosmetic and medicinal uses. It is used to color hair, adorn skin, and treat various skin conditions.'
-        }
-    ],
-    'Hibiscus': [
-        {
-            'scientific_name': 'Hibiscus sabdariffa',
-            'scientific_medicinal_properties': 'Hibiscus sabdariffa, commonly known as roselle or hibiscus, is a species of flowering plant in the family Malvaceae.',
-            'common_location': 'Hibiscus sabdariffa is native to West Africa, but it is cultivated in other parts of the world for its edible calyxes and other uses.',
-            'popular_usecase': 'Hibiscus sabdariffa calyxes are used to produce a popular beverage known as hibiscus tea or sorrel. Hibiscus tea is valued for its tart flavor, deep red color, and health benefits. It is high in vitamin C, antioxidants, and other nutrients. Hibiscus tea is known for its cooling, diuretic, and cardiovascular benefits. It is used to lower blood pressure, reduce cholesterol levels, and promote overall well-being. Hibiscus sabdariffa flowers and leaves are used in traditional medicine for their medicinal properties. They are used to treat various health conditions, including hypertension, liver disorders, and digestive problems. Hibiscus extract is used in herbal remedies and supplements for its potential health-promoting effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using hibiscus sabdariffa, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Hibiscus sabdariffa is valued for its refreshing taste and health benefits. It is used to promote cardiovascular health, support digestion, and enhance overall well-being.'
-        }
-    ],
-    'Honge': [
-        {
-            'scientific_name': 'Pongamia pinnata',
-            'scientific_medicinal_properties': 'Pongamia pinnata, commonly known as Indian beech or honge, is a species of tree in the pea family Fabaceae.',
-            'common_location': 'Pongamia pinnata is native to tropical and subtropical regions of Asia and Australia.',
-            'popular_usecase': 'Pongamia pinnata seeds are used in traditional medicine and industrial applications. They are valued for their medicinal properties and biodiesel potential. Pongamia pinnata oil is extracted from the seeds and used in skincare products, soaps, and lubricants. Pongamia pinnata extract is used in herbal remedies and supplements for its potential health benefits. It is used to treat various health conditions, including skin disorders, inflammation, and infections. Pongamia pinnata leaves, bark, and roots are also used in traditional medicine for their medicinal properties.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using pongamia pinnata, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Pongamia pinnata is valued for its versatile uses and medicinal properties. It is used to promote skin health, reduce inflammation, and support overall well-being.'
-        }
-    ],
-    'Insulin': [
-        {
-            'scientific_name': 'Coccinia grandis',
-            'scientific_medicinal_properties': 'Coccinia grandis, commonly known as ivy gourd or insulin plant, is a tropical vine in the family Cucurbitaceae.',
-            'common_location': 'Coccinia grandis is native to tropical regions of Asia, including India, Sri Lanka, and Southeast Asia.',
-            'popular_usecase': 'Coccinia grandis leaves and fruits are used in traditional medicine and culinary dishes. They are valued for their medicinal properties and culinary uses. Coccinia grandis is used to regulate blood sugar levels and promote insulin sensitivity. It is used as a natural remedy for diabetes and related metabolic disorders. Coccinia grandis is also used to treat various health conditions, including digestive disorders, fever, and skin problems. Coccinia grandis extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using coccinia grandis, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Coccinia grandis is valued for its medicinal properties and culinary uses. It is used to regulate blood sugar levels, support digestion, and promote overall well-being.'
-        }
-    ],
-    'Jasmine': [
-        {
-            'scientific_name': 'Jasminum',
-            'scientific_medicinal_properties': 'Jasminum is a genus of shrubs and vines in the olive family Oleaceae.',
-            'common_location': 'Jasminum species are native to tropical and subtropical regions of Eurasia, Oceania, and Africa. They are cultivated for their fragrant flowers and essential oils.',
-            'popular_usecase': 'Jasminum flowers are valued for their sweet, floral fragrance and ornamental beauty. They are used in perfumery, aromatherapy, and religious rituals. Jasminum essential oil is extracted from the flowers and used in skincare products, massage oils, and perfumes. Jasminum flowers are also used in traditional medicine for their medicinal properties. They are used to reduce stress, anxiety, and depression. Jasminum essential oil is used to promote relaxation, improve mood, and enhance overall well-being.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using jasminum, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Jasminum is valued for its fragrant flowers and medicinal properties. It is used to promote relaxation, reduce stress, and enhance overall well-being.'
-        }
-    ],
-    'Lemon': [
-        {
-            'scientific_name': 'Citrus limon',
-            'scientific_medicinal_properties': 'Citrus limon, commonly known as lemon, is a species of small evergreen tree in the flowering plant family Rutaceae.',
-            'common_location': 'Citrus limon is native to South Asia, but it is cultivated in other parts of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Lemon fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its tart flavor, refreshing taste, and nutritional benefits. Lemon is high in vitamin C, antioxidants, and other nutrients. It is known for its digestive, immune-boosting, and detoxifying properties. Lemon juice is used in cooking, baking, and beverages for its flavor-enhancing and preservative effects. Lemon peel and zest are used in culinary dishes, desserts, and herbal remedies. Lemon essential oil is used in aromatherapy, skincare, and household cleaning products for its fresh, uplifting fragrance and antibacterial properties.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using citrus limon, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Citrus limon is valued for its refreshing taste and health benefits. It is used to promote digestion, boost immunity, and enhance overall well-being.'
-        }
-    ],
-    'Lemon_grass': [
-        {
-            'scientific_name': 'Cymbopogon citratus',
-            'scientific_medicinal_properties': 'Cymbopogon citratus, commonly known as lemongrass, is a tropical plant in the grass family Poaceae.',
-            'common_location': 'Cymbopogon citratus is native to Southeast Asia, but it is cultivated in other parts of the world for its culinary and medicinal uses.',
-            'popular_usecase': 'Cymbopogon citratus leaves and stems are used as a culinary herb in various cuisines, particularly Southeast Asian, Indian, and African cuisines. They are valued for their citrusy flavor and aromatic fragrance. Cymbopogon citratus is used to flavor soups, curries, teas, and beverages. It is also used in marinades, sauces, and salad dressings. Cymbopogon citratus is known for its medicinal properties. It is used to promote digestion, relieve stress, and reduce inflammation. Cymbopogon citratus essential oil is used in aromatherapy, skincare, and massage therapy for its relaxing and antibacterial effects.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using cymbopogon citratus, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Cymbopogon citratus is valued for its culinary and medicinal properties. It is used to enhance flavor, promote relaxation, and support overall well-being.'
-        }
-    ],
-    'Mango': [
-        {
-            'scientific_name': 'Mangifera indica',
-            'scientific_medicinal_properties': 'Mangifera indica, commonly known as mango, is a species of flowering plant in the family Anacardiaceae.',
-            'common_location': 'Mangifera indica is native to South Asia, but it is cultivated in other tropical and subtropical regions of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Mango fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its sweet flavor, rich aroma, and nutritional benefits. Mango is high in vitamins, minerals, antioxidants, and fiber. It is known for its digestive, immune-boosting, and skin-nourishing properties. Mango is used to promote digestion, enhance immunity, and support overall well-being. Mango leaves, bark, and seeds are also used in traditional medicine for their medicinal properties. They are used to treat various health conditions, including diarrhea, fever, and inflammation. Mango extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using mangifera indica, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Mangifera indica is valued for its delicious taste and health benefits. It is used to promote digestion, boost immunity, and enhance overall well-being.'
-        }
-    ],
-    'Mint': [
-        {
-            'scientific_name': 'Mentha',
-            'scientific_medicinal_properties': 'Mentha is a genus of flowering plants in the mint family Lamiaceae.',
-            'common_location': 'Mentha species are native to temperate regions of Eurasia, but they are cultivated worldwide for their culinary and medicinal uses.',
-            'popular_usecase': 'Mentha leaves and stems are used as a culinary herb and medicinal remedy. They are valued for their refreshing flavor and aromatic fragrance. Mentha is used to flavor beverages, desserts, salads, sauces, and other culinary dishes. It is also used in teas, infusions, and herbal remedies. Mentha is known for its medicinal properties. It is used to promote digestion, relieve nausea, and reduce inflammation. Mentha essential oil is used in aromatherapy, skincare, and massage therapy for its cooling and soothing effects. Mentha leaves are also used in traditional medicine for their potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using mentha, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Mentha is valued for its culinary and medicinal properties. It is used to enhance flavor, promote digestion, and support overall well-being.'
-        }
-    ],
-    'Nagadali': [
-        {
-            'scientific_name': 'Cynodon dactylon',
-            'scientific_medicinal_properties': 'Cynodon dactylon, commonly known as Bermuda grass or nagadali, is a perennial grass in the family Poaceae.',
-            'common_location': 'Cynodon dactylon is native to tropical and subtropical regions worldwide and is widely cultivated as a turfgrass and forage crop.',
-            'popular_usecase': 'Cynodon dactylon is used for various purposes, including landscaping, erosion control, and forage production. It is valued for its tolerance to heat, drought, and foot traffic. Cynodon dactylon is also used in traditional medicine for its medicinal properties. It is used to treat various health conditions, including digestive disorders, respiratory problems, and skin infections. Cynodon dactylon extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using cynodon dactylon, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Cynodon dactylon is valued for its versatility and medicinal properties. It is used to promote health, support digestion, and enhance overall well-being.'
-        }
-    ],
-    'Neem': [
-        {
-            'scientific_name': 'Azadirachta indica',
-            'scientific_medicinal_properties': 'Azadirachta indica, commonly known as neem, is a tree native to the Indian subcontinent.',
-            'common_location': 'Azadirachta indica is found in tropical and subtropical regions of Asia and Africa. It is widely cultivated for its medicinal, culinary, and environmental uses.',
-            'popular_usecase': 'Azadirachta indica is used in traditional medicine, agriculture, and personal care products. Neem leaves, bark, seeds, and oil are used for their medicinal properties. They are used to treat various health conditions, including skin disorders, diabetes, and infections. Neem is also used as a natural pesticide, insect repellent, and fertilizer in agriculture. Neem oil is used in skincare products, soaps, and shampoos for its antibacterial, antifungal, and moisturizing properties. Neem extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using azadirachta indica, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Azadirachta indica is valued for its versatile uses and medicinal properties. It is used to promote skin health, support immunity, and enhance overall well-being.'
-        }
-    ],
-    'Nithyapushpa': [
-        {
-            'scientific_name': 'Catharanthus roseus',
-            'scientific_medicinal_properties': 'Catharanthus roseus, commonly known as Madagascar periwinkle or nithyapushpa, is a species of flowering plant in the family Apocynaceae.',
-            'common_location': 'Catharanthus roseus is native to Madagascar, but it is cultivated in other parts of the world for its ornamental and medicinal uses.',
-            'popular_usecase': 'Catharanthus roseus is used in traditional medicine and pharmaceuticals. It is valued for its medicinal properties and compounds, such as alkaloids and vincristine. Catharanthus roseus is used to treat various health conditions, including cancer, diabetes, and malaria. It is also used as a natural insecticide and pesticide in agriculture. Catharanthus roseus extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using catharanthus roseus, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Catharanthus roseus is valued for its medicinal properties and compounds. It is used to treat cancer, diabetes, and other health conditions.'
-        }
-    ],
-    'Nooni': [
-        {
-            'scientific_name': 'Solanum nigrum',
-            'scientific_medicinal_properties': 'Solanum nigrum, commonly known as black nightshade or nooni, is a species of flowering plant in the nightshade family Solanaceae.',
-            'common_location': 'Solanum nigrum is found in temperate and tropical regions worldwide, including Asia, Africa, Europe, and North America.',
-            'popular_usecase': 'Solanum nigrum is used in traditional medicine and culinary dishes. It is valued for its medicinal properties and culinary uses. Solanum nigrum is used to treat various health conditions, including inflammation, fever, and gastrointestinal disorders. It is also used as a natural diuretic and laxative. Solanum nigrum leaves, berries, and roots are used in herbal remedies and supplements for their potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using solanum nigrum, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Solanum nigrum is valued for its medicinal properties and culinary uses. It is used to promote health, support digestion, and enhance overall well-being.'
-        }
-    ],
-    'Pappaya': [
-        {
-            'scientific_name': 'Carica papaya',
-            'scientific_medicinal_properties': 'Carica papaya, commonly known as papaya, is a tropical fruit tree in the family Caricaceae.',
-            'common_location': 'Carica papaya is native to tropical regions of the Americas, but it is cultivated in other parts of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Papaya fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its sweet flavor, rich aroma, and nutritional benefits. Papaya is high in vitamins, minerals, antioxidants, and fiber. It is known for its digestive, immune-boosting, and skin-nourishing properties. Papaya is used to promote digestion, enhance immunity, and support overall well-being. Papaya seeds, leaves, and latex are also used in traditional medicine for their medicinal properties. They are used to treat various health conditions, including digestive disorders, inflammation, and parasitic infections. Papaya extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using carica papaya, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Carica papaya is valued for its delicious taste and health benefits. It is used to promote digestion, boost immunity, and enhance overall well-being.'
-        }
-    ],
-    'Pepper': [
-        {
-            'scientific_name': 'Piper nigrum',
-            'scientific_medicinal_properties': 'Piper nigrum, commonly known as black pepper, is a flowering vine in the family Piperaceae.',
-            'common_location': 'Piper nigrum is native to South India, but it is cultivated in other tropical regions of Asia, Africa, and the Americas.',
-            'popular_usecase': 'Piper nigrum berries are used as a spice and seasoning in culinary dishes worldwide. They are valued for their spicy, pungent flavor and aromatic fragrance. Piper nigrum is used to flavor soups, stews, sauces, marinades, and other savory dishes. It is also used in pickling, preserves, and beverages. Piper nigrum is known for its medicinal properties. It is used to promote digestion, relieve nausea, and reduce inflammation. Piper nigrum essential oil is used in aromatherapy, skincare, and massage therapy for its warming and analgesic effects. Piper nigrum extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using piper nigrum, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Piper nigrum is valued for its culinary and medicinal properties. It is used to enhance flavor, promote digestion, and support overall well-being.'
-        }
-    ],
-    'Pomegranate': [
-        {
-            'scientific_name': 'Punica granatum',
-            'scientific_medicinal_properties': 'Punica granatum, commonly known as pomegranate, is a fruit-bearing deciduous shrub or small tree in the family Lythraceae.',
-            'common_location': 'Punica granatum is native to the region of modern-day Iran, but it is cultivated in other parts of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Pomegranate fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its sweet and tangy flavor, rich aroma, and nutritional benefits. Pomegranate is high in vitamins, minerals, antioxidants, and fiber. It is known for its cardiovascular, anti-inflammatory, and anti-cancer properties. Pomegranate is used to promote heart health, reduce inflammation, and protect against oxidative stress. Pomegranate juice and extract are used in functional foods, beverages, and dietary supplements for their potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using punica granatum, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Punica granatum is valued for its delicious taste and health benefits. It is used to promote heart health, reduce inflammation, and enhance overall well-being.'
-        }
-    ],
-    'Raktachandini': [
-        {
-            'scientific_name': 'Hibiscus rosa-sinensis',
-            'scientific_medicinal_properties': 'Hibiscus rosa-sinensis, commonly known as Chinese hibiscus or raktachandini, is a species of flowering plant in the family Malvaceae.',
-            'common_location': 'Hibiscus rosa-sinensis is native to East Asia, but it is cultivated in other parts of the world for its ornamental and medicinal uses.',
-            'popular_usecase': 'Hibiscus rosa-sinensis flowers are valued for their ornamental beauty and medicinal properties. They are used in landscaping, gardens, and traditional medicine. Hibiscus rosa-sinensis is used to treat various health conditions, including hypertension, diabetes, and fever. It is also used as a natural hair and skincare remedy. Hibiscus rosa-sinensis extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using hibiscus rosa-sinensis, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Hibiscus rosa-sinensis is valued for its medicinal properties and ornamental beauty. It is used to promote health, treat diseases, and enhance overall well-being.'
-        }
-    ],
-    'Rose': [
-        {
-            'scientific_name': 'Rosa',
-            'scientific_medicinal_properties': 'Rosa is a genus of flowering plants in the rose family Rosaceae.',
-            'common_location': 'Rosa species are native to temperate regions of the Northern Hemisphere, but they are cultivated worldwide for their ornamental and medicinal uses.',
-            'popular_usecase': 'Rosa flowers are valued for their ornamental beauty and medicinal properties. They are used in gardens, landscaping, and traditional medicine. Rosa petals are used to make rose water, perfumes, and cosmetics. Rose water is used in skincare products, aromatherapy, and culinary dishes. Rosa hips, the fruit of the rose plant, are high in vitamin C and antioxidants. They are used to make herbal teas, jams, jellies, and dietary supplements. Rosa extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using rosa, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Rosa is valued for its ornamental beauty and medicinal properties. It is used to promote health, enhance beauty, and support overall well-being.'
-        }
-    ],
-    'Sapota': [
-        {
-            'scientific_name': 'Manilkara zapota',
-            'scientific_medicinal_properties': 'Manilkara zapota, commonly known as sapodilla or sapota, is a tropical fruit tree in the family Sapotaceae.',
-            'common_location': 'Manilkara zapota is native to southern Mexico, Central America, and the Caribbean, but it is cultivated in other tropical regions of the world for its edible fruit and other uses.',
-            'popular_usecase': 'Sapodilla fruit is consumed fresh or processed into juice, jams, jellies, and culinary dishes. It is valued for its sweet flavor, rich aroma, and nutritional benefits. Sapodilla is high in vitamins, minerals, antioxidants, and fiber. It is known for its digestive, immune-boosting, and skin-nourishing properties. Sapodilla is used to promote digestion, enhance immunity, and support overall well-being. Sapodilla seeds, bark, and latex are also used in traditional medicine for their medicinal properties. They are used to treat various health conditions, including coughs, diarrhea, and skin problems. Sapodilla extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using manilkara zapota, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Manilkara zapota is valued for its delicious taste and health benefits. It is used to promote digestion, boost immunity, and enhance overall well-being.'
-        }
-    ],
-    'Tulasi': [
-        {
-            'scientific_name': 'Ocimum tenuiflorum',
-            'scientific_medicinal_properties': 'Ocimum tenuiflorum, commonly known as holy basil or tulsi, is an aromatic perennial plant in the family Lamiaceae.',
-            'common_location': 'Ocimum tenuiflorum is native to the Indian subcontinent, but it is cultivated in other parts of the world for its medicinal and spiritual significance.',
-            'popular_usecase': 'Ocimum tenuiflorum leaves are used in culinary dishes, teas, and traditional medicine. They are valued for their aromatic fragrance and medicinal properties. Ocimum tenuiflorum is used to promote respiratory health, relieve stress, and support overall well-being. It is considered a sacred plant in Hinduism and is used in religious rituals and ceremonies. Ocimum tenuiflorum extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using ocimum tenuiflorum, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Ocimum tenuiflorum is valued for its spiritual significance and medicinal properties. It is used to promote health, relieve stress, and enhance overall well-being.'
-        }
-    ],
-    'Wood_sorel': [
-        {
-            'scientific_name': 'Oxalis',
-            'scientific_medicinal_properties': 'Oxalis is a large genus of flowering plants in the wood-sorrel family Oxalidaceae.',
-            'common_location': 'Oxalis species are found worldwide, especially in temperate and tropical regions. They are commonly cultivated as ornamental plants.',
-            'popular_usecase': 'Oxalis leaves, stems, and flowers are used in culinary dishes and traditional medicine. They are valued for their tart flavor and medicinal properties. Oxalis is used as a culinary ingredient in salads, soups, sauces, and garnishes. It is also used in teas, infusions, and herbal remedies. Oxalis is known for its antioxidant, anti-inflammatory, and diuretic effects. It is used to promote urinary tract health, relieve inflammation, and support overall well-being. Oxalis extract is used in herbal remedies and supplements for its potential health benefits.',
-            'Disclaimer': 'Consult a qualified healthcare professional before using oxalis, especially if you have any allergies or medical conditions.',
-            'lament_medicinal_property': 'Oxalis is valued for its culinary and medicinal properties. It is used to enhance flavor, promote urinary tract health, and support overall well-being.'
-        }
-    ]
+    'commonGrowthLocation': 'Nooni plants are native to South and Southeast Asia and are found in various parts of India, Nepal, Sri Lanka, Myanmar, Thailand, and Indonesia. They are also cultivated in other tropical and subtropical regions of the world for their medicinal and ornamental value.',
+    'disclaimer': 'Consult a qualified healthcare professional before using noon or noon-derived products, especially if you have any allergies or medical conditions.'
+  },
+
+
+    'Pappaya': {
+        'scientificName': 'Carica papaya',
+        'medicinalProperty': 'Pappaya, also known as Carica papaya or papaya, is a tropical fruit valued for its delicious taste and various health benefits. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Improving digestion: Papaya contains enzymes like papain, which aid digestion and promote gastrointestinal health. It helps break down proteins, fats, and carbohydrates in the diet, improving nutrient absorption, reducing bloating and indigestion, and supporting regular bowel movements.',
+            'Boosting immune function: Papaya is rich in vitamins A, C, and E, antioxidants that help strengthen the immune system and protect against infections. Regular consumption of papaya may help reduce the risk of colds, flu, and other respiratory infections.',
+            'Lowering inflammation: Papaya contains enzymes and antioxidants that help reduce inflammation in the body and alleviate symptoms of inflammatory conditions like arthritis, gout, and asthma. It helps inhibit inflammatory mediators, suppress inflammatory pathways, and promote tissue healing and repair.',
+            'Promoting skin health: Papaya is rich in vitamins A, C, and E, antioxidants that nourish and protect the skin from oxidative damage caused by UV radiation, pollution, and other environmental factors. It helps promote collagen production, improve skin elasticity, and reduce wrinkles and fine lines, enhancing overall skin health and appearance.'
+        ],
+        'commonGrowthLocation': 'Papaya trees are native to tropical regions of the Americas but are now cultivated in tropical and subtropical regions worldwide, including Asia, Africa, and Oceania.',
+        'disclaimer': 'Consult a qualified healthcare professional before using papaya or papaya-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Pepper': {
+        'scientificName': 'Piper nigrum',
+        'medicinalProperty': 'Pepper, scientifically known as Piper nigrum, is a spice valued for its culinary and medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Improving digestion: Pepper stimulates digestion and helps relieve gastrointestinal issues like indigestion, bloating, and constipation. It contains piperine, a bioactive compound that increases digestive enzyme activity, enhances gastric motility, and improves nutrient absorption, promoting overall digestive wellness.',
+            'Boosting metabolism: Pepper is known to boost metabolism and promote weight loss by increasing thermogenesis and fat oxidation. Piperine, the active compound in black pepper, enhances metabolic rate, improves insulin sensitivity, and reduces fat accumulation, making it beneficial for weight management.',
+            'Enhancing nutrient absorption: Pepper enhances the bioavailability of nutrients by inhibiting enzymes that metabolize drugs and nutrients in the liver and intestine. Piperine helps increase the absorption of vitamins, minerals, and phytonutrients, maximizing their health benefits and efficacy in the body.',
+            'Supporting respiratory health: Pepper has expectorant and decongestant properties, making it beneficial for respiratory health. It helps relieve respiratory symptoms like cough, cold, and congestion by loosening mucus, clearing airway passages, and reducing inflammation in the respiratory tract.'
+        ],
+        'commonGrowthLocation': 'Black pepper plants are native to South India but are cultivated in other tropical regions of Asia, Africa, and the Americas. They thrive in warm, humid climates with well-drained soil and ample sunlight.',
+        'disclaimer': 'Consult a qualified healthcare professional before using pepper or pepper-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Pomegranate': {
+        'scientificName': 'Punica granatum',
+        'medicinalProperty': 'Pomegranate, scientifically known as Punica granatum, is a fruit valued for its delicious taste and various health benefits. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Lowering blood pressure: Pomegranate juice is rich in polyphenols and anthocyanins, antioxidants that help lower blood pressure by relaxing blood vessels and improving blood flow. Regular consumption of pomegranate juice may help reduce hypertension, a risk factor for heart disease and stroke.',
+            'Supporting heart health: Pomegranate contains potent antioxidants like punicalagins and flavonoids, which help protect the heart by reducing oxidative stress and inflammation. It helps lower cholesterol levels, prevent plaque buildup in the arteries, and improve blood circulation, reducing the risk of heart disease and stroke.',
+            'Boosting immune function: Pomegranate is rich in vitamins C and E, antioxidants that help strengthen the immune system and protect against infections. Regular consumption of pomegranate may help reduce the risk of colds, flu, and other respiratory infections.',
+            'Promoting skin health: Pomegranate is rich in vitamins C and E, antioxidants that nourish and protect the skin from oxidative damage caused by UV radiation, pollution, and other environmental factors. It helps promote collagen production, improve skin elasticity, and reduce wrinkles and fine lines, enhancing overall skin health and appearance.'
+        ],
+        'commonGrowthLocation': 'Pomegranate trees are native to the Middle East and South Asia but are now cultivated in tropical and subtropical regions worldwide, including Asia, Africa, and the Americas.',
+        'disclaimer': 'Consult a qualified healthcare professional before using pomegranates or pomegranate-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Raktachandini': {
+        'scientificName': 'Pavonia odorata',
+        'medicinalProperty': 'Raktachandini, also known as Pavonia odorata or fragrant pavonia, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Relieving menstrual disorders: Raktachandini is used to relieve menstrual disorders like irregular periods, menstrual cramps, and excessive bleeding. It helps regulate menstrual cycles, reduce menstrual pain and discomfort, and balance hormonal levels, improving overall menstrual health and well-being.',
+            'Treating skin conditions: Raktachandini is beneficial for treating various skin conditions like acne, eczema, psoriasis, and fungal infections. It has antimicrobial, anti-inflammatory, and antiseptic properties, which help cleanse the skin, inhibit bacterial and fungal growth, and reduce inflammation and itching.',
+            'Promoting wound healing: Raktachandini leaves and flowers are applied topically to wounds, cuts, and insect bites to promote healing and prevent infections. They have antiseptic and antimicrobial properties, which help cleanse the wound, inhibit bacterial growth, and accelerate tissue repair and regeneration.',
+            'Enhancing respiratory health: Raktachandini is beneficial for respiratory health and is used to relieve cough, cold, asthma, and bronchitis. It has expectorant, bronchodilator, and anti-inflammatory properties that help clear airway congestion, reduce inflammation in the respiratory tract, and promote easier breathing.'
+        ],
+        'commonGrowthLocation': 'Raktachandini plants are native to tropical and subtropical regions of the Americas, Africa, and Asia and are found in various parts of India, Sri Lanka, Myanmar, Thailand, and Indonesia. They are also cultivated in other tropical and subtropical regions of the world for their medicinal and ornamental value.',
+        'disclaimer': 'Consult a qualified healthcare professional before using raktachandini or raktachandini-derived products, especially if you have any allergies or medical conditions.'
+    },
+
+
+    'Rose': {
+        'scientificName': 'Rosa',
+        'medicinalProperty': 'Rose, scientifically known as Rosa, is a flowering plant valued for its aromatic flowers and medicinal properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Relieving stress and anxiety: Rose essential oil is used in aromatherapy to reduce stress, anxiety, and depression and promote relaxation and emotional well-being. Its sweet, floral scent has a calming effect on the mind and body, helping alleviate tension, improve mood, and induce feelings of comfort and tranquility.',
+            'Enhancing skin health: Rose oil is used in skincare products for its moisturizing, toning, and rejuvenating properties. It helps hydrate the skin, reduce dryness and irritation, and improve skin elasticity and texture. Rose oil is suitable for all skin types and is often used in facial oils, serums, and moisturizers to promote healthy, radiant skin.',
+            'Improving digestion: Rose water is beneficial for digestion and is used to alleviate gastrointestinal issues like indigestion, bloating, and constipation. It helps stimulate digestive enzymes, enhance gastric motility, and improve nutrient absorption, promoting overall digestive wellness.',
+            'Relieving menstrual cramps: Rose tea is used to relieve menstrual cramps and other symptoms of dysmenorrhea. It has analgesic and antispasmodic properties that help relax the uterine muscles, reduce menstrual pain and discomfort, and promote menstrual flow.'
+        ],
+        'commonGrowthLocation': 'Roses are native to various regions of the world, including Europe, Asia, and North America, and are now cultivated worldwide for their ornamental and medicinal value.',
+        'disclaimer': 'Consult a qualified healthcare professional before using rose oil, rose water, or rose-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Sapota': {
+        'scientificName': 'Manilkara zapota',
+        'medicinalProperty': 'Sapota, also known as Manilkara zapota or chikoo, is a tropical fruit valued for its sweet taste and various health benefits. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Supporting digestive health: Sapota is rich in dietary fiber, which aids digestion and promotes gastrointestinal health. It helps regulate bowel movements, prevent constipation, and support a healthy gut microbiome, reducing the risk of digestive disorders like irritable bowel syndrome (IBS) and colon cancer.',
+            'Boosting immune function: Sapota is rich in vitamins A and C, antioxidants that help strengthen the immune system and protect against infections. Regular consumption of sapota may help reduce the risk of colds, flu, and other respiratory infections.',
+            'Improving skin health: Sapota is rich in vitamins A and E, antioxidants that nourish and protect the skin from oxidative damage caused by UV radiation, pollution, and other environmental factors. They help promote collagen production, improve skin elasticity, and reduce wrinkles and fine lines, enhancing overall skin health and appearance.',
+            'Regulating blood sugar levels: Sapota has a low glycemic index and is beneficial for managing diabetes and insulin resistance. It helps stabilize blood sugar levels, prevent spikes in insulin, and reduce the risk of hyperglycemia and related complications.'
+        ],
+        'commonGrowthLocation': 'Sapota trees are native to Central America and Mexico but are now cultivated in tropical and subtropical regions worldwide, including India, Sri Lanka, Southeast Asia, Africa, and the Americas.',
+        'disclaimer': 'Consult a qualified healthcare professional before using sapota or sapota-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Tulasi': {
+        'scientificName': 'Ocimum tenuiflorum',
+        'medicinalProperty': 'Tulasi, also known as Ocimum tenuiflorum or holy basil, is a medicinal herb valued for its various therapeutic properties, particularly in Ayurvedic medicine. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Boosting immune function: Tulasi is known for its immunomodulatory properties and is used to boost immune function and prevent infections. It helps stimulate the production of immune cells like T cells and natural killer cells, enhance their activity, and strengthen the body\'s defense mechanisms against pathogens like bacteria, viruses, and fungi.',
+            'Relieving respiratory conditions: Tulasi is beneficial for respiratory health and is used to relieve cough, cold, asthma, and bronchitis. It has expectorant, bronchodilator, and anti-inflammatory properties that help clear airway congestion, reduce inflammation in the respiratory tract, and promote easier breathing.',
+            'Supporting cardiovascular health: Tulasi helps maintain cardiovascular health by lowering cholesterol levels, regulating blood pressure, and reducing oxidative stress and inflammation in the arteries. It contains antioxidants like eugenol and flavonoids, which protect the heart from damage caused by free radicals and oxidative stress.',
+            'Improving stress management: Tulasi has adaptogenic properties that help the body adapt to stress and promote mental well-being. It helps reduce the production of stress hormones like cortisol, improve resilience to stress, and enhance mood, cognitive function, and overall quality of life.'
+        ],
+        'commonGrowthLocation': 'Tulasi is native to the Indian subcontinent and is found throughout South Asia, Southeast Asia, and parts of Africa. It is cultivated in home gardens, temples, and herbal farms for its medicinal and spiritual significance.',
+        'disclaimer': 'Consult a qualified healthcare professional before using tulasi or tulasi-derived products, especially if you have any allergies or medical conditions.'
+    },
+    'Wood_sorel': {
+        'scientificName': 'Oxalis corniculata',
+        'medicinalProperty': 'Wood sorrel, scientifically known as Oxalis corniculata, is a medicinal plant valued for its various therapeutic properties. Some of its key medicinal properties include:',
+        'medicinalDetails': [
+            'Relieving digestive issues: Wood sorrel is used to alleviate digestive issues like indigestion, bloating, and stomach cramps. It contains compounds like oxalic acid and flavonoids, which help relax the muscles of the digestive tract, improve bile flow, and reduce gastrointestinal discomfort.',
+            'Reducing inflammation: Wood sorrel has anti-inflammatory properties that help reduce inflammation and pain associated with conditions like arthritis, muscle aches, and headaches. It inhibits the production of inflammatory compounds in the body, providing relief from swelling and discomfort.',
+            'Supporting liver health: Wood sorrel is beneficial for liver health and is used to detoxify the liver, reduce oxidative stress, and prevent liver damage caused by toxins, alcohol, and free radicals. It helps stimulate bile production, enhance liver function, and improve overall liver health and well-being.',
+            'Promoting wound healing: Wood sorrel leaves and stems are applied topically to wounds, cuts, and insect bites to promote healing and prevent infections. They have antiseptic and antimicrobial properties, which help cleanse the wound, inhibit bacterial growth, and accelerate tissue repair and regeneration.'
+        ],
+        'commonGrowthLocation': 'Wood sorrel is native to Europe, Asia, and North America and is found in various temperate and subtropical regions of the world. It grows in open woodlands, grasslands, and disturbed habitats, thriving in moist, well-drained soil and partial shade.',
+        'disclaimer': 'Consult a qualified healthcare professional before using wood sorrel or wood sorrel-derived products, especially if you have any allergies or medical conditions.'
+    },
+    
 } 
+
 class_list = list(Plant_Details.keys())
 
 if __name__ == "__main__":
