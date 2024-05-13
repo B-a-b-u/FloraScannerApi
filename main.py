@@ -29,7 +29,7 @@ model = tf.keras.models.load_model("models/model-3.keras")
 
 # Helper function to get plant name
 def get_plant_name(plant_name):
-    return Plant_Details.get(plant_name)[0]
+    return Plant_Details.get(plant_name)
 
 @app.get("/")
 async def home():
