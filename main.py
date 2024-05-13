@@ -39,7 +39,10 @@ async def home():
 async def predict_image(image_data: dict = Body(...)):
     try:
         # Decode base64 image data
-        image_bytes = base64.b64decode(image_data["image"])
+        image_base64 = image_data.get("image")
+        if not image_base64:
+            raise HTTPException(status_code=400, detail="Image data not provided")
+        image_bytes = base64.b64decode(image_base64)
         image = np.array(Image.open(BytesIO(image_bytes)))
         prediction = model.predict(np.expand_dims(image,0))
         predicted_class_index = np.argmax(prediction)
