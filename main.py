@@ -1,11 +1,11 @@
-from fastapi import FastAPI, Body, HTTPException
+from fastapi import FastAPI, Body, HTTPException, UploadFile, File
 from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
+import uvicorn
 import tensorflow as tf
 from io import BytesIO
 from PIL import Image
 import numpy as np
-import requests
 from plant_medicinal_data import Plant_Details, class_list
 import base64
 
@@ -22,7 +22,7 @@ app.add_middleware(
 )
 
 # Load the model
-model = tf.keras.models.load_model("models/model-3.keras")
+model = tf.keras.models.load_model("models/model-5.keras")
 
 # Define class labels (replace this with your actual class labels)
 
@@ -58,16 +58,35 @@ async def predict_image(image_data: dict = Body(...)):
         return JSONResponse(content={"error": str(e)}, status_code=500)
 
 # Endpoint to predict image from URL
-@app.post("/predict-url")
-async def predict_url(image_url: str):
-    try:
-        # Download the image from the URL
-        response = requests.get(image_url)
-        image = Image.open(BytesIO(response.content))
-        image = np.array(image)
+# @app.post("/predict-url")
+# async def predict_url(image_url: str):
+#     try:
+#         # Download the image from the URL
+#         response = requests.get(image_url)
+#         image = Image.open(BytesIO(response.content))
+#         image = np.array(image)
 
-        # Predict the image
-        prediction = model.predict(np.expand_dims(image, 0))
+#         # Predict the image
+#         prediction = model.predict(np.expand_dims(image, 0))
+#         predicted_class_index = np.argmax(prediction)
+#         confidence = round(100 * np.max(prediction[0]), 2)
+#         predicted_class = class_list[predicted_class_index]
+#         plant_details = get_plant_name(predicted_class)
+#         return {
+#             "class": predicted_class,
+#             "confidence": confidence,
+#             "details": plant_details
+#         }
+#     except Exception as e:
+#         return JSONResponse(content={"error": str(e)}, status_code=500)
+
+@app.post("/predicttest")
+async def predict_image(file: UploadFile = File(...)):
+    try:
+        contents = await file.read()
+        image = np.array(Image.open(BytesIO(contents)))
+        image = np.array(Image.open(BytesIO(image)))
+        prediction = model.predict(np.expand_dims(image,0))
         predicted_class_index = np.argmax(prediction)
         confidence = round(100 * np.max(prediction[0]), 2)
         predicted_class = class_list[predicted_class_index]
@@ -77,8 +96,9 @@ async def predict_url(image_url: str):
             "confidence": confidence,
             "details": plant_details
         }
+
     except Exception as e:
-        return JSONResponse(content={"error": str(e)}, status_code=500)
+       return JSONResponse(content={"error": str(e)}, status_code=500)
 
 if __name__ == "__main__":
     uvicorn.run(app, host="localhost", port=8000)
