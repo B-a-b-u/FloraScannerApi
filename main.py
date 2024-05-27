@@ -22,6 +22,7 @@ app.add_middleware(
 )
 
 # Load the model
+model = tf.keras.models.load_model("models/model-3.keras")
 model = tf.keras.models.load_model("models/newmodel1.keras")
 
 # Define class labels (replace this with your actual class labels)
